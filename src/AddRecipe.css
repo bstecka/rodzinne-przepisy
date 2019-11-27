@@ -10,3 +10,7 @@
   font-weight: bold;
   font-size: 16px;
 }
+
+.ant-upload.ant-upload-select-picture-card {
+  width: 50% !important;
+}
