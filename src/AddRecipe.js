@@ -5,17 +5,6 @@ import FormBuilder from 'antd-form-builder'
 import { withRouter } from "react-router-dom";
 import './AddRecipe.css';
 
-const foodItem = { 
-  key: 'food-item-1',
-  label: 'Nazwa składnika',
-  colSpan: 3,
-}
-
-const foodAmount = {
-  key: 'food-item-amount-1',
-  label: 'Ilość',
-}
-
 const recipeStep = { 
   key: 'textarea', 
   label: 'Krok 1', 
@@ -27,7 +16,15 @@ class AddRecipe extends Component {
 
   constructor(props) {
     super(props);
-    const foodItem = { key: 'food-item-1', label: 'Nazwa składnika', colSpan: 3 }
+    const foodItem = { 
+      key: 'food-item-1', 
+      label: 'Nazwa składnika', 
+      colSpan: 3 
+    }
+    const foodAmount = {
+      key: 'food-item-amount-1',
+      label: 'Ilość',
+    }
     this.state = { 
       foodItemArray: [foodItem, foodAmount],
       recipeStepArray: [recipeStep]
@@ -40,9 +37,7 @@ class AddRecipe extends Component {
     this.props.history.push('/przepis');
   }
 
-  // https://rekit.github.io/antd-form-builder/
   render() {
-    console.log(this.state.foodItemArray[0]);
     const options = ['wegetariańskiej', 'wegańskiej'];
     const meta = {
       columns: 4,

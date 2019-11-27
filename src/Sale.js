@@ -37,7 +37,7 @@ const salesStores = [
     },
   ];
 
-function Recipe() {
+function Sale() {
   return (
     <div>
     <Row>
@@ -70,4 +70,4 @@ function Recipe() {
   );
 }
 
-export default Recipe;
+export default Sale;

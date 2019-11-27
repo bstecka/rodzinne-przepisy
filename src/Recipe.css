@@ -2,6 +2,11 @@
   font-weight: bold;
 }
 
+.column-header-options {
+  font-weight: bold;
+  padding: 20px 0px 10px 0px;
+}
+
 .recipe-column {
   padding: 20px 50px 30px 0px;
 }
@@ -12,13 +17,29 @@
 }
 
 .ingredients-list {
-  padding: 20px 50px 30px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .portion-input {
-  padding: 20px 50px 30px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .diet-kind-checkbox {
   font-size: 32px;
+}
+
+.gallery {
+  padding-top: 20px; 
+}
+
+.styles_wrapper__1kG3C {
+  min-height: 100vh;
+  padding: 0 !important;
+  background: #ffffff !important;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.styles_gridItem__nPXhF figcaption {
+  display: none !important;
 }

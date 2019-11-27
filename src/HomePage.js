@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, List, Card , Avatar} from 'antd';
 import { withRouter } from "react-router-dom";
-import './UserPage.css';
+import './HomePage.css';
 
 const data = [
   {
@@ -21,20 +21,20 @@ const data = [
     url: 'https://irp-cdn.multiscreensite.com/4b0d7b92/dms3rep/multi/mobile/Yorkshire+Pudding+Wrap+Landscape+edit.jpg'
   },
   {
-    title: 'Lasagne',
-    url: 'https://kuchnialidla.pl/img/PL/960x540/51c3b902a430-dc24d133e562-Klassische-Lasagne.jpg'
+    title: 'Makaron włoski',
+    url: 'https://img.etimg.com/thumb/msid-72104865,width-640,resizemode-4,imgsize-222155/italian-menu-for-the-entire-week.jpg'
   },
   {
-    title: 'Pierogi ruskie',
-    url: 'https://akademiasmaku.pl/upload/recipes/4370/tradycyjne-pierogi-ruskie-4370.jpg'
+    title: 'Pikantne burgery drobiowe',
+    url: 'https://bi.im-g.pl/im/55/a6/fe/z16688725IH,Pikantne-burgery-drobiowe.jpg'
   },
   {
-    title: 'Barszcz Czerwony',
-    url: 'http://zpierwszegotloczenia.pl/obrazek/393391.jpeg'
+    title: 'Makaron wegański',
+    url: 'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg'
   },
   {
-    title: 'Ciasto Marchewkowe',
-    url: 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ciasto_marchewkowe_01.jpg'
+    title: 'Przekąska świąteczna',
+    url: 'https://irp-cdn.multiscreensite.com/4b0d7b92/dms3rep/multi/mobile/Cauliflower%2C+Grains+Christmas+Salad+Landscape+RGB-77e63f88.jpg'
   },
 ];
 
