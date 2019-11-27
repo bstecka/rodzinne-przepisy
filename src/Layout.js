@@ -36,7 +36,7 @@ class PageLayout extends Component {
                     selectedKeys={[this.props.location.pathname]}
                     style={{ lineHeight: '100px' }}
                 >
-                <Menu.Item key="/moje-przepisy"><Icon type="book" />Książka kucharska</Menu.Item>
+                <Menu.Item key="/moje-przepisy"><Icon type="read" />Książka kucharska</Menu.Item>
                 <Menu.Item key="/"><Icon type="home" />Strona główna</Menu.Item>
                 </Menu>
             </Header>
