@@ -1,5 +1,5 @@
-import React from 'react';
-import { Row, Col, List, Card, Input, Checkbox } from 'antd';
+import React, { Component } from 'react';
+import { Row, Col, List, Card, Input, Radio } from 'antd';
 import './Recipe.css';
 import DztImageGalleryComponent from 'reactjs-image-gallery';
 
@@ -42,7 +42,7 @@ const ingredients = [
   },
 ];
 
-var photos = [
+const photos = [
   {
     thumbUrl: 'https://static.mojewypieki.com/upload/images/przepisy/Proste%20ciasto%20marchewkowe/Proste_ciasto_marchewkowe_2.jpg',
     original:      'https://static.mojewypieki.com/upload/images/przepisy/Proste%20ciasto%20marchewkowe/Proste_ciasto_marchewkowe_2.jpg'
@@ -69,53 +69,74 @@ var photos = [
   },
 ];
 
-function onChange(e) {
-  console.log(`checked = ${e.target.checked}`);
-}
+const options = [
+  { label: 'Standardowa', value: 1},
+  { label: 'Wegetariańska', value: 2 },
+  { label: 'Wegańska', value: 3 },
+];
 
-function Recipe() {
-  return (
-    <div>
-    <Row>
-      <Col span={12}>
-      <span className="column-header">Ciasto Marchewkowe</span>
-          <div className="recipe-column">
-          <Card cover={<img alt="example" src={'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ciasto_marchewkowe_01.jpg'} />}>
-            Liczba porcji: <Input className="postion-input" size="small" placeholder="liczba porcji" value={1} /> 
-            Składniki:
-          <List className="ingredients-list"
-            itemLayout="horizontal"
-            dataSource={ingredients}
-            size="large"
-            renderItem={item => (
-              <List.Item>
-                  <List.Item.Meta
-                    title={item.name} />
-                  <div>{item.amount}</div>
-              </List.Item>
-            )}
-         />
-          </Card>
+class Recipe extends Component {
 
+  state = {
+    value: 1,
+  };
+
+  handleClick = () => {
+      this.props.history.push('/przepis');
+  }
+
+  handleSalesClick = () => {
+    this.props.history.push('/promocja');
+  }
+
+  onChange = e => {
+    console.log('radio checked', e.target.value);
+    this.setState({
+      value: e.target.value,
+    });
+  };
+
+  render() {
+    return (
+      <div>
+      <Row>
+        <Col span={12}>
+        <span className="column-header">Ciasto Marchewkowe</span>
+            <div className="recipe-column">
+            <Card cover={<img alt="example" src={'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ciasto_marchewkowe_01.jpg'} />}>
+            <span>Liczba porcji:</span>
+            <div className="portion-input"><Input size="small" placeholder="liczba porcji" value={1} /></div>
+            <span>Składniki:</span>
+            <div className="ingredients-list">
+              <List
+                itemLayout="horizontal"
+                dataSource={ingredients}
+                size="large"
+                renderItem={item => (
+                  <List.Item>
+                      <List.Item.Meta
+                        title={item.name} />
+                      <div>{item.amount}</div>
+                  </List.Item>
+                )}
+            />
+           </div>
+            </Card>
+            <div className="column-header-options">Wersja potrawy</div>
+            <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
+          </div>
+        </Col>
+        <Col span={12}>
+        <span className="column-header">Galeria</span>
+        <div className="gallery">
+          <DztImageGalleryComponent imageBackgroundColor="red"
+            images={photos} />
         </div>
-      </Col>
-      <Col span={12}>
-      <span className="column-header">Galeria</span> 
-      <br />
-      <div className="galerry">
-        <DztImageGalleryComponent imageBackgroundColor="red"
-          images={photos} />
-      </div>
-      <br />
-      <span className="column-header">Wersja potrawy</span> 
-      <br />
-      <Checkbox className="diet-kind-checkbox" onChange={onChange}>Wegetariańska</Checkbox> 
-      <br />
-      <Checkbox className="diet-kind-checkbox" onChange={onChange}>Wegańska</Checkbox>
-      </Col>
-    </Row>
-  </div>
-  );
+        </Col>
+      </Row>
+    </div>
+    );
+  };
 }
 
 export default Recipe;

@@ -5,19 +5,19 @@ import './UserPage.css';
 
 const data = [
   {
-    title: 'Title 1',
+    title: 'Wykwintne śniadanie',
     url: 'https://www.holidify.com/blog/wp-content/uploads/2016/01/DalBati.jpg'
   },
   {
-    title: 'Title 2',
+    title: 'Makaron wegański',
     url: 'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg'
   },
   {
-    title: 'Title 3',
+    title: 'Ramen z paluszkami krabowymi',
     url: 'https://mothership.sg/wp-content/uploads/2016/11/3.jpg'
   },
   {
-    title: 'Title 4',
+    title: 'Makaron włoski',
     url: 'https://img.etimg.com/thumb/msid-72104865,width-640,resizemode-4,imgsize-222155/italian-menu-for-the-entire-week.jpg'
   },
 ];
@@ -33,7 +33,7 @@ class SearchPage extends Component {
       <div>
       <Row>
         <Col span={16}>
-        <span className="column-header">Szukaj</span>
+        <span className="column-header">Szukaj przepisów</span>
             <div className="recipe-column">
             <List
               grid={{ gutter: 12, column: 2 }}
@@ -47,7 +47,6 @@ class SearchPage extends Component {
             </div>
         </Col>
         <Col span={8}>
-          <span className="column-header">Promocje</span>
         </Col>
       </Row>
     </div>

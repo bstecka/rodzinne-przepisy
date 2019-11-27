@@ -5,19 +5,19 @@ import './UserPage.css';
 
 const data = [
   {
-    title: 'Title 1',
+    title: 'Zawijaski z łososiem',
     url: 'http://www.gustocatering.com.pl/images/grafika/start_gusto_krakow_finger_food.jpg'
   },
   {
-    title: 'Title 2',
+    title: 'Makaron wegański',
     url: 'https://img.etimg.com/thumb/msid-72104865,width-640,resizemode-4,imgsize-222155/italian-menu-for-the-entire-week.jpg'
   },
   {
-    title: 'Title 3',
+    title: 'Zdrowy burger',
     url: 'https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg'
   },
   {
-    title: 'Title 4',
+    title: 'Pikantne burgery drobiowe',
     url: 'https://bi.im-g.pl/im/55/a6/fe/z16688725IH,Pikantne-burgery-drobiowe.jpg'
   },
 ];
