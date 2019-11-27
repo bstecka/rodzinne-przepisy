@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Row, Col, List, Card } from 'antd';
+import { withRouter } from "react-router-dom";
 import './UserPage.css';
 
 const data = [
@@ -21,29 +22,36 @@ const data = [
   },
 ];
 
-function UserPage() {
-  return (
-    <div>
-      <Row>
-        <Col span={16}>
-          <span className="column-header">Moje przepisy</span>
-          <div className="recipe-column">
-          <List
-            grid={{ gutter: 12, column: 2 }}
-            dataSource={data}
-            renderItem={item => (
-              <List.Item>
-                <Card cover={<img alt="example" src={item.url} />}>{item.title}</Card>
-              </List.Item>
-            )}
-          />
-          </div>
-        </Col>
-        <Col span={8}>
-        </Col>
-      </Row>
-    </div>
-  );
+class UserPage extends Component {
+
+  handleClick = () => {
+      this.props.history.push('/przepis');
+  }
+
+  render() {
+    return (
+      <div>
+        <Row>
+          <Col span={16}>
+            <span className="column-header">Moje przepisy</span>
+            <div className="recipe-column">
+            <List
+              grid={{ gutter: 12, column: 2 }}
+              dataSource={data}
+              renderItem={item => (
+                <List.Item onClick={this.handleClick}>
+                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}</Card>
+                </List.Item>
+              )}
+            />
+            </div>
+          </Col>
+          <Col span={8}>
+          </Col>
+        </Row>
+      </div>
+    );
+  };
 }
 
-export default UserPage;
+export default withRouter(UserPage);
