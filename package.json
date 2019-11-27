@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "antd-form-builder": "^1.0.5",
     "babel-plugin-import": "^1.13.0"
   }
 }

@@ -1,0 +1,12 @@
+.column-header {
+  font-weight: bold;
+}
+
+.recipe-column {
+  padding: 20px 50px 30px 0px;
+}
+
+.ant-card-body {
+  font-weight: bold;
+  font-size: 16px;
+}

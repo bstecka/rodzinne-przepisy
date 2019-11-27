@@ -18,6 +18,10 @@ class PageLayout extends Component {
             this.props.history.push('/szukaj/'+ value);
     }
 
+    handleButtonClick = () => {
+        this.props.history.push('/dodaj');
+    }
+
     render() {
         return (
         <Layout className="layout">
@@ -25,7 +29,7 @@ class PageLayout extends Component {
                 <div className="header-container">
                     <Search placeholder="Wpisz nazwę potrawy..." onSearch={value => this.handleSearch(value)} enterButton />
                 </div>
-                <Button type="primary" size='large'>Dodaj przepis</Button>
+                <Button type="primary" size='large' onClick={this.handleButtonClick} >Dodaj przepis</Button>
                 <Menu onClick={this.handleClick}
                     theme="dark"
                     mode="horizontal"
