@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.header-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.ant-layout-header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item, .ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+  padding: 0px 30px;
+}
+
+.ant-menu {
+  font-size: 18px;
+}
+
+.ant-menu-item .anticon, .ant-menu-submenu-title .anticon {
+  font-size: 18px;
+}
+
+.ant-input {
+  height: 50px;
+  font-size: 18px;
+}
+
+.ant-btn {
+  height: 50px;
+  padding: 0 28px;
+  font-size: 18px;
+}
+
+body {
+  font-size: 18px;
+}
