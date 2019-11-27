@@ -13,12 +13,17 @@ class PageLayout extends Component {
         this.props.history.push(key);
     }
 
+    handleSearch = (value) => {
+        if (value.length > 0)
+            this.props.history.push('/szukaj/'+ value);
+    }
+
     render() {
         return (
         <Layout className="layout">
             <Header>
                 <div className="header-container">
-                    <Search placeholder="Wpisz nazwę potrawy..." onSearch={value => console.log(value)} enterButton />
+                    <Search placeholder="Wpisz nazwę potrawy..." onSearch={value => this.handleSearch(value)} enterButton />
                 </div>
                 <Button type="primary" size='large'>Dodaj przepis</Button>
                 <Menu onClick={this.handleClick}

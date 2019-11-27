@@ -6,23 +6,23 @@ import './UserPage.css';
 const data = [
   {
     title: 'Title 1',
-    url: 'https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg'
+    url: 'https://www.holidify.com/blog/wp-content/uploads/2016/01/DalBati.jpg'
   },
   {
     title: 'Title 2',
-    url: 'http://www.tandooriovenlogan.com/images/gallery/img-03.jpg'
+    url: 'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg'
   },
   {
     title: 'Title 3',
-    url: 'http://www.gustocatering.com.pl/images/grafika/start_gusto_krakow_finger_food.jpg'
+    url: 'https://mothership.sg/wp-content/uploads/2016/11/3.jpg'
   },
   {
     title: 'Title 4',
-    url: 'https://irp-cdn.multiscreensite.com/4b0d7b92/dms3rep/multi/mobile/Yorkshire+Pudding+Wrap+Landscape+edit.jpg'
+    url: 'https://img.etimg.com/thumb/msid-72104865,width-640,resizemode-4,imgsize-222155/italian-menu-for-the-entire-week.jpg'
   },
 ];
 
-class HomePage extends Component {
+class SearchPage extends Component {
 
   handleClick = () => {
       this.props.history.push('/przepis');
@@ -33,7 +33,7 @@ class HomePage extends Component {
       <div>
       <Row>
         <Col span={16}>
-        <span className="column-header">Przepisy</span>
+        <span className="column-header">Szukaj</span>
             <div className="recipe-column">
             <List
               grid={{ gutter: 12, column: 2 }}
@@ -55,4 +55,4 @@ class HomePage extends Component {
   };
 }
 
-export default withRouter(HomePage);
+export default withRouter(SearchPage);
