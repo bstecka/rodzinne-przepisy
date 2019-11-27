@@ -38,6 +38,7 @@ class PageLayout extends Component {
                 >
                 <Menu.Item key="/moje-przepisy"><Icon type="read" />Książka kucharska</Menu.Item>
                 <Menu.Item key="/"><Icon type="home" />Strona główna</Menu.Item>
+                <Icon className="logout-icon" type="logout" />
                 </Menu>
             </Header>
             <Content style={{ padding: '0 50px' }}>
