@@ -43,3 +43,19 @@
 .styles_gridItem__nPXhF figcaption {
   display: none !important;
 }
+
+.ant-btn {
+  height: 50px;
+  padding: 0 28px;
+  font-size: 18px;
+}
+
+.button-container {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-message {
+  font-size: 18px !important;
+}
