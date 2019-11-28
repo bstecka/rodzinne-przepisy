@@ -129,8 +129,6 @@ class Recipe extends Component {
             />
            </div>
             </Card>
-            <div className="column-header-options">Wersja potrawy</div>
-            <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
           </div>
         </Col>
         <Col span={12}>
@@ -169,7 +167,10 @@ class Recipe extends Component {
     </Descriptions.Item>
 
         </Descriptions>
-
+        <div className="column-header-options">Wersja potrawy</div>
+            <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
+        <br/>
+        <br/>
         <span className="column-header">Galeria</span>
         <div className="gallery">
           <DztImageGalleryComponent imageBackgroundColor="red"
