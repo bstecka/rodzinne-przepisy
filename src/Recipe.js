@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card, Input, Radio } from 'antd';
+import { Row, Col, List, Card, Input, Radio, Button, message } from 'antd';
 import './Recipe.css';
 import DztImageGalleryComponent from 'reactjs-image-gallery';
 
@@ -96,6 +96,10 @@ class Recipe extends Component {
     });
   };
 
+  handleButtonClick = () => {
+    message.success('Zapisano przepis w książce kucharskiej.');
+  }
+
   render() {
     return (
       <div>
@@ -104,7 +108,10 @@ class Recipe extends Component {
         <span className="column-header">Ciasto Marchewkowe</span>
             <div className="recipe-column">
             <Card cover={<img alt="example" src={'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ciasto_marchewkowe_01.jpg'} />}>
-            <span>Liczba porcji:</span>
+            <div className="button-container"> 
+              <Button type="primary" size='large' onClick={this.handleButtonClick}>Zapisz w książce kucharskiej</Button>
+            </div>
+            <div>Liczba porcji:</div>
             <div className="portion-input"><Input size="small" placeholder="liczba porcji" value={1} /></div>
             <span>Składniki:</span>
             <div className="ingredients-list">
