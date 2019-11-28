@@ -132,16 +132,19 @@ class Recipe extends Component {
           </div>
         </Col>
         <Col span={12}>
-
+        <div className="recipe-description">
         <Descriptions title="Przepis:">
 
         <Descriptions.Item label="">
 
         Wszystkie składniki powinny być w temperaturze pokojowej.
         <br/>
+        <br/>
         W jednym naczyniu wymieszać składniki suche: przesianą mąkę pszenną, cukier, sól, proszek, sodę, przyprawy. W drugim naczyniu roztrzepać jajka z olejem (np. rózgą kuchenną).
         <br/>
+        <br/>
         Połączyć zawartość obu naczyń, dodać startą marchewkę, orzechy i ananasy, wymieszać łyżką. 
+        <br/>
         <br/>
         Formę o średnicy 20 cm wyłożyć papierem do pieczenia. Do formy wyłożyć ciasto, wyrównać. Piec w temperaturze 175ºC przez 40 - 45 minut lub do tzw. suchego patyczka. Wystudzić w formie, następnie wyjąć i wystudzić na kratce.
         <br/>
@@ -167,6 +170,7 @@ class Recipe extends Component {
     </Descriptions.Item>
 
         </Descriptions>
+        </div>
         <div className="column-header-options">Wersja potrawy</div>
             <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
         <br/>
