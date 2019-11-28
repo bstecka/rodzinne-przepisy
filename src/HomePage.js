@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card , Avatar} from 'antd';
+import { Row, Col, List, Card , Avatar, Tag} from 'antd';
 import { withRouter } from "react-router-dom";
 import './HomePage.css';
 
@@ -98,7 +98,13 @@ class HomePage extends Component {
               dataSource={data}
               renderItem={item => (
                 <List.Item onClick={this.handleClick}>
-                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}</Card>
+                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}
+                  <br/>
+                  <Tag color="purple">obiad</Tag>
+                  <Tag color="red">zdrowy</Tag>
+                  <Tag color="green">warzywa</Tag>
+                  <Tag color="yellow">wegetariańskie</Tag>
+                  </Card>
                 </List.Item>
               )}
             />

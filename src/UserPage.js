@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card } from 'antd';
+import { Row, Col, List, Card, Tag } from 'antd';
 import { withRouter } from "react-router-dom";
 import './UserPage.css';
 
@@ -40,7 +40,13 @@ class UserPage extends Component {
               dataSource={data}
               renderItem={item => (
                 <List.Item onClick={this.handleClick}>
-                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}</Card>
+                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}
+                  <br/>
+                  <Tag color="red">obiad</Tag>
+                  <Tag color="purple">zdrowy</Tag>
+                  <Tag color="yellow">wegetariańskie</Tag>
+                  <Tag color="green">warzywa</Tag>
+                  </Card>
                 </List.Item>
               )}
             />

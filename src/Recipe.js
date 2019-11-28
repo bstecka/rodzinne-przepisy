@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card, Input, Radio, Button, message } from 'antd';
+import { Row, Col, List, Card, Input, Radio, Button, message, Descriptions } from 'antd';
 import './Recipe.css';
 import DztImageGalleryComponent from 'reactjs-image-gallery';
 
@@ -134,6 +134,42 @@ class Recipe extends Component {
           </div>
         </Col>
         <Col span={12}>
+
+        <Descriptions title="Przepis:">
+
+        <Descriptions.Item label="">
+
+        Wszystkie składniki powinny być w temperaturze pokojowej.
+        <br/>
+        W jednym naczyniu wymieszać składniki suche: przesianą mąkę pszenną, cukier, sól, proszek, sodę, przyprawy. W drugim naczyniu roztrzepać jajka z olejem (np. rózgą kuchenną).
+        <br/>
+        Połączyć zawartość obu naczyń, dodać startą marchewkę, orzechy i ananasy, wymieszać łyżką. 
+        <br/>
+        Formę o średnicy 20 cm wyłożyć papierem do pieczenia. Do formy wyłożyć ciasto, wyrównać. Piec w temperaturze 175ºC przez 40 - 45 minut lub do tzw. suchego patyczka. Wystudzić w formie, następnie wyjąć i wystudzić na kratce.
+        <br/>
+        <br/>
+        <b>Krem z serka philadelphia:</b>
+        <br/>
+        <br/>
+        300 g serka philadelphia, w temperaturze pokojowej
+        <br/>
+        90 g masła, w temperaturze pokojowej
+        <br/>
+        1 szklanka cukru pudru, przesianego (lub mniej, do smaku)
+        <br/>
+        1 łyżeczka ekstraktu lub pasty z wanilii
+        <br/>
+        <br/>
+        Masło, cukier i wanilię umieścić w misie miksera. Utrzeć do otrzymania puszystej i jasnej masy maślanej. Dodawać serek kremowy, w trzech turach, cały czas ucierając.
+        <br/>
+        Wystudzone ciasto przekroić wzdłuż. Połową kremu przełożyć ciasto, resztę rozsmarować na górze. Ozdobić orzechami włoskimi, można delikatnie oprószyć cynamonem.
+        <br/>
+        <br/>
+        Smacznego :-).
+    </Descriptions.Item>
+
+        </Descriptions>
+
         <span className="column-header">Galeria</span>
         <div className="gallery">
           <DztImageGalleryComponent imageBackgroundColor="red"
