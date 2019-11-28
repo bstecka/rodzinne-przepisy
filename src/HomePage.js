@@ -36,6 +36,30 @@ const data = [
     title: 'Przekąska świąteczna',
     url: 'https://irp-cdn.multiscreensite.com/4b0d7b92/dms3rep/multi/mobile/Cauliflower%2C+Grains+Christmas+Salad+Landscape+RGB-77e63f88.jpg'
   },
+  {
+    title: 'Chłodnik',
+    url: 'http://haveabite.in/uploads/2017/08/20707413_10212254096569766_36460454_n.jpg'
+  },
+  {
+    title: 'Jakitori Kabab',
+    url: 'https://img.etimg.com/thumb/width-640,height-480,imgsize-925331,resizemode-1,msid-72252118/japanese-fast-food-yakitori-kebabs-get-space-thumbs-up-astronaut-can-now-take-cans-to-iss.jpg'
+  },
+  {
+    title: 'Awokado Toast',
+    url: 'https://i.redd.it/6btqvzw3h2311.jpg'
+  },
+  {
+    title: 'Rogaliki czekoladowe',
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQxrr2B0HdluDy9q92lKLDz1yKt48XbK5jCz4UQd7J-2nQ5EL3&s'
+  },
+  {
+    title: 'Muffinki',
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EClqiWcSYb5KLNY045BAnhr2fSWMJCeIZnv9-PRvdoEVAVPe&s'
+  },
+  {
+    title: 'Zdrowa sałatka',
+    url: 'https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmU8C5PffkDsRVpgY8N6pQc9ApBLYQ8V9APrVUBVt7xuBT/BE1DBCDB-CF08-46BB-90B7-74883CB39D16.jpeg'
+  },
 ];
 
 const sales = [
