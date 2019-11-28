@@ -100,6 +100,7 @@ class HomePage extends Component {
                 <List.Item onClick={this.handleClick}>
                   <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}
                   <br/>
+                  <br/>
                   <Tag color="purple">obiad</Tag>
                   <Tag color="red">zdrowy</Tag>
                   <Tag color="green">warzywa</Tag>

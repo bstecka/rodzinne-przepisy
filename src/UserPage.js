@@ -32,15 +32,16 @@ class UserPage extends Component {
     return (
       <div>
         <Row>
-          <Col span={16}>
+          <Col span={24}>
             <span className="column-header">Moje przepisy</span>
             <div className="recipe-column">
             <List
-              grid={{ gutter: 12, column: 2 }}
+              grid={{ gutter: 12, column: 3 }}
               dataSource={data}
               renderItem={item => (
                 <List.Item onClick={this.handleClick}>
                   <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}
+                  <br/>
                   <br/>
                   <Tag color="red">obiad</Tag>
                   <Tag color="purple">zdrowy</Tag>
