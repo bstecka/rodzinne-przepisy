@@ -128,7 +128,7 @@ class HomePage extends Component {
                   <Tag color="purple">obiad</Tag>
                   <Tag color="red">zdrowy</Tag>
                   <Tag color="green">warzywa</Tag>
-                  <Tag color="yellow">wegetariańskie</Tag>
+                  <Tag color="blue">wegetariańskie</Tag>
                   </Card>
                 </List.Item>
               )}

@@ -64,3 +64,16 @@
 .recipe-description {
   text-align: justify;
 }
+
+.rate {
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+.recipe-description {
+  font-weight: initial;
+}
+
+.ingredients-title {
+  font-weight: bold;
+}

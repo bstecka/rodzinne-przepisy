@@ -53,7 +53,7 @@ class UserPage extends Component {
                   <br/>
                   <Tag color="red">obiad</Tag>
                   <Tag color="purple">zdrowy</Tag>
-                  <Tag color="yellow">wegetariańskie</Tag>
+                  <Tag color="blue">wegetariańskie</Tag>
                   <Tag color="green">warzywa</Tag>
                   </Card>
                 </List.Item>
