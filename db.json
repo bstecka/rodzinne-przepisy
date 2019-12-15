@@ -510,6 +510,172 @@
             "id": 3,
             "name": "Wegańska"
         }
+    ],
+    "sales": [
+        {
+            "id": 1,
+            "product_name": "Cytryny",
+            "product_url": "https://s6.dziennik.pl/pliki/4710000/4710498-cytryna-643-477.jpg",
+            "stores": [
+                {
+                    "id": 1,
+                    "name" : "Biedronka",
+                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+                    "price": 3.29
+                },
+                {
+                    "id": 2,
+                    "name" : "Lidl",
+                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+                    "price": 3.99
+                },
+                {
+                    "id": 3,
+                    "name" : "Kaufland",
+                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+                    "price": 4.19
+                },
+                {
+                    "id": 4,
+                    "name" : "Auchan",
+                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+                    "price": 3.59
+                },
+                {
+                    "id": 5,
+                    "name" : "Piotr i Paweł",
+                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+                    "price": 5.99
+                },
+                {
+                    "id": 6,
+                    "name" : "Carrefour",
+                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+                    "price": 4.79
+                },
+                {
+                    "id": 7,
+                    "name" : "Tesco",
+                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+                    "price": 5.19
+                },
+                {
+                    "id": 8,
+                    "name" : "T&J",
+                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+                    "price": 6.99
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "product_name": "Awokado",
+            "product_url": "https://zasoby.ekologia.pl/artykulyNew/18517/xxl/shutterstock-785296315_800x600.jpg",
+            "stores": [
+                {
+                    "id": 1,
+                    "name" : "Biedronka",
+                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+                    "price": 9.99
+                },
+                {
+                    "id": 2,
+                    "name" : "Lidl",
+                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+                    "price": 11.99
+                },
+                {
+                    "id": 3,
+                    "name" : "Kaufland",
+                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+                    "price": 10.19
+                },
+                {
+                    "id": 4,
+                    "name" : "Auchan",
+                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+                    "price": 8.99
+                },
+                {
+                    "id": 5,
+                    "name" : "Piotr i Paweł",
+                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+                    "price": 13.99
+                },
+                {
+                    "id": 6,
+                    "name" : "Carrefour",
+                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+                    "price": 10.79
+                },
+                {
+                    "id": 7,
+                    "name" : "Tesco",
+                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+                    "price": 7.89
+                },
+                {
+                    "id": 8,
+                    "name" : "T&J",
+                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+                    "price": 14.99
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "product_name": "Pomidor malinowy",
+            "product_url": "http://www.sklepogrodniczy.net.pl/images/POMIDOR%20HA%203626%20NASIONA%20HAZERA.jpg",
+            "stores": [
+                {
+                    "id": 1,
+                    "name" : "Biedronka",
+                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+                    "price": 4.99
+                },
+                {
+                    "id": 2,
+                    "name" : "Lidl",
+                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+                    "price": 4.99
+                },
+                {
+                    "id": 3,
+                    "name" : "Kaufland",
+                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+                    "price": 5.19
+                },
+                {
+                    "id": 4,
+                    "name" : "Auchan",
+                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+                    "price": 3.99
+                },
+                {
+                    "id": 5,
+                    "name" : "Piotr i Paweł",
+                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+                    "price": 7.99
+                },
+                {
+                    "id": 6,
+                    "name" : "Carrefour",
+                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+                    "price": 4.79
+                },
+                {
+                    "id": 7,
+                    "name" : "Tesco",
+                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+                    "price": 5.89
+                },
+                {
+                    "id": 8,
+                    "name" : "T&J",
+                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+                    "price": 7.99
+                }
+            ]
+        }
     ]
-
 }
