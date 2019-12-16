@@ -441,6 +441,124 @@
                     "description": "Gotuj około 15-20 minut, a następnie zmiksuj blenderem. Podawaj z pieczywem. Możesz posypać świeżą kolendrą."
                 }
             ]
+        },
+        {
+            "id": "4",
+            "title": "Kanapka klubowa z cukinią i awokado",
+            "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
+            "difficulty": 2.5,
+            "diet_type": {
+                "id": 2,
+                "name": "Wegetariańska"
+            },
+            "tags": [
+                {
+                    "id": 6,
+                    "name": "wegetariańskie"
+                },
+                {
+                    "id": 2,
+                    "name": "warzywa"
+                },
+                {
+                    "id": 4,
+                    "name": "szybkie danie"
+                },
+                {
+                    "id": 14,
+                    "name": "śniadanie"
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "pieczywo pełnoziarniste, kromki",
+                    "quantity": 6,
+                    "unit": "szt."
+                }, 
+                {
+                    "name": "Rama 100% Roślinna",
+                    "quantity": 40,
+                    "unit": "g"
+                }, 
+                {
+                    "name": "cukinia",
+                    "quantity": 1,
+                    "unit": "szt."
+                }, 
+                {
+                    "name": "awokado",
+                    "quantity": 1,
+                    "unit": "szt."
+                }, 
+                {
+                    "name": "ząbek czosnku",
+                    "quantity": 1,
+                    "unit": "szt."
+                }, 
+                {
+                    "name": "sól",
+                    "quantity": 1,
+                    "unit": "szczypta"
+                }, 
+                {
+                    "name": "Pieprz czarny z Wietnamu mielony Knorr",
+                    "quantity": 1,
+                    "unit": "szczypta"
+                }, 
+                {
+                    "name": "kiełki słonecznika",
+                    "quantity": 1,
+                    "unit": "garść"
+                }
+            ], 
+            "gallery": [
+                {
+                    "id": 1,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
+                }, 
+                {
+                    "id": 2,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
+                }, 
+                {
+                    "id": 3,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
+                }, 
+                {
+                    "id": 4,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
+                }, 
+                {
+                    "id": 5,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
+                }, 
+                {
+                    "id": 6,
+                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
+                }
+            ],
+            "recipe_steps":[
+                {
+                    "id": "Krok 1",
+                    "description": "Czosnek posiekaj drobno i rozmieszaj dokładnie z margaryną, dopraw do smaku. Tak przygotowana margaryną posmaruj kromki pieczywa."
+                }, 
+                {
+                    "id": "Krok 2",
+                    "description": "Awokado przekrój na pół ostrym nożem, następnie „brodę” noża wbij ostrożnie w pestkę owocu, przekręć nóż i wyjmij pestkę. Łyżką stołową jednym ruchem wydrąż miąższ, a następnie pokrój w plastry."
+                },
+                {
+                    "id": "Krok 3",
+                    "description": "Cukinię pokrój wzdłuż w cienkie plastry – rozłóż na papierowym ręczniku i oprósz lekko solą. Po kilku minutach zbierz papierowym ręcznikiem wodę."
+                },
+                {
+                    "id": "Krok 4",
+                    "description": "Kromki pieczywa posmaruj czosnkową margaryną i opiecz krótko na ruszcie w rozgrzanym do 200° C piekarniku. Przygotuj dwie klubowe kanapki: na dwie kromki pieczywa nałóż dekoracyjnie plastry cukinii, na kolejne dwie nałóż plastry awokado oraz kiełki słonecznika. Pozostałe dwie kromki pozostaw."
+                },
+                {
+                    "id": "Krok 5",
+                    "description": "Na kromkę pieczywa z cukinią nałóż kromkę z awokado i kiełkami – przykryj trzecią, „pustą” kromką. Złóż w ten sposób dwie kanapki. Kanapki przyciśnij lekko dłonią, przekrój po przekątnej na pół i od razu podawaj."
+                }
+            ]
         }
     ],
     "tags": [
@@ -495,6 +613,10 @@
         {
             "id": 13,
             "name": "zupa"
+        },
+        {
+            "id": 14,
+            "name": "śniadanie"
         }
     ], 
     "diet_types": [
