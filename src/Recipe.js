@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card, Input, Radio, Button, message, Descriptions, InputNumber, Rate } from 'antd';
+import { Row, Col, List, Card, Radio, Button, message, InputNumber, Rate } from 'antd';
 import './Recipe.css';
 import DztImageGalleryComponent from 'reactjs-image-gallery';
+import { apiURL, defaultImageURL } from './consts';
 
 const ingredients = [
   {
@@ -75,22 +76,21 @@ const options = [
   { label: 'Wegańska', value: 3 },
 ];
 
-function onChange(value) {
-  console.log('changed', value);
-};
-
 class Recipe extends Component {
 
-  state = {
-    value: 1,
-  };
-
-  handleClick = () => {
-      this.props.history.push('/przepis');
+  constructor(props) {
+    super(props);
+    this.state = { recipe: null, value: 1 };
   }
 
-  handleSalesClick = () => {
-    this.props.history.push('/promocja');
+  componentDidMount() {
+    const { match: { params } } = this.props;
+    fetch(`${apiURL}/recipes/${params.id}`)
+    .then(res => res.json())
+    .then((data) => {
+      this.setState({ recipe: data, value: data.diet_type.id })
+    })
+    .catch(console.log)
   }
 
   onChange = e => {
@@ -106,88 +106,53 @@ class Recipe extends Component {
 
   render() {
     return (
-      <div>
+    this.state.recipe ?
       <Row>
         <Col span={12}>
-        <span className="column-header">Ciasto Marchewkowe</span>
+        <span className="column-header">{this.state.recipe.title}</span>
             <div className="recipe-column">
-            <Card cover={<img alt="example" src={'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ciasto_marchewkowe_01.jpg'} />}>
-            <div className="button-container"> 
-              <Button type="primary" size='large' onClick={this.handleButtonClick}>Zapisz w książce kucharskiej</Button>
-            </div>
-            <div className="recipe-description">
-            <Descriptions title="Przepis:">
-
-            <Descriptions.Item label="">
-
-            Wszystkie składniki powinny być w temperaturze pokojowej.
-            <br/>
-            <br/>
-            W jednym naczyniu wymieszać składniki suche: przesianą mąkę pszenną, cukier, sól, proszek, sodę, przyprawy. W drugim naczyniu roztrzepać jajka z olejem (np. rózgą kuchenną).
-            <br/>
-            <br/>
-            Połączyć zawartość obu naczyń, dodać startą marchewkę, orzechy i ananasy, wymieszać łyżką. 
-            <br/>
-            <br/>
-            Formę o średnicy 20 cm wyłożyć papierem do pieczenia. Do formy wyłożyć ciasto, wyrównać. Piec w temperaturze 175ºC przez 40 - 45 minut lub do tzw. suchego patyczka. Wystudzić w formie, następnie wyjąć i wystudzić na kratce.
-            <br/>
-            <br/>
-            <b>Krem z serka philadelphia:</b>
-            <br/>
-            <br/>
-            300 g serka philadelphia, w temperaturze pokojowej
-            <br/>
-            90 g masła, w temperaturze pokojowej
-            <br/>
-            1 szklanka cukru pudru, przesianego (lub mniej, do smaku)
-            <br/>
-            1 łyżeczka ekstraktu lub pasty z wanilii
-            <br/>
-            <br/>
-            Masło, cukier i wanilię umieścić w misie miksera. Utrzeć do otrzymania puszystej i jasnej masy maślanej. Dodawać serek kremowy, w trzech turach, cały czas ucierając.
-            <br/>
-            Wystudzone ciasto przekroić wzdłuż. Połową kremu przełożyć ciasto, resztę rozsmarować na górze. Ozdobić orzechami włoskimi, można delikatnie oprószyć cynamonem.
-            <br/>
-            <br/>
-            Smacznego :-).
-            </Descriptions.Item>
-            </Descriptions>
-            <div className="column-header-options">Wersja potrawy</div>
-            <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
-            </div>
-            </Card>
+              <Card cover={<img alt="example" src={this.state.recipe.thumbnailUrl.length > 1 ? this.state.recipe.thumbnailUrl : defaultImageURL} />}>
+                <div className="button-container"> 
+                  <Button type="primary" size='large' onClick={this.handleButtonClick}>Zapisz w książce kucharskiej</Button>
+                </div>
+                <div className="recipe-description">
+                  <div className="column-header-options">Przepis:</div>
+                  {this.state.recipe.recipe_steps.map(step => <p key={step.id}>{step.description}</p>)}
+                  <div className="column-header-options">Wersja potrawy</div>
+                    <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
+                  </div>
+              </Card>
           </div>
         </Col>
         <Col span={12}>
-        <div className="recipe-ingredients">
-        <div>Trudność przygotowania</div>
-        <div className="rate"><Rate allowHalf defaultValue={2.5} /></div>
-        <div>Liczba porcji:</div>
-            <div className="portion-input"><InputNumber min={0} max={20} step={1} onChange={onChange} defaultValue={1}/></div>
-            <div className="ingredients-title"><span>Składniki:</span></div>
-            <div className="ingredients-list">
+          <div className="recipe-ingredients">
+            <div className="ingredients-title">Trudność przygotowania</div>
+            <div className="rate"><Rate allowHalf disabled defaultValue={this.state.recipe.difficulty} /></div>
+            <div>Liczba porcji:</div>
+            <div className="portion-input"><InputNumber min={0} max={20} step={1} defaultValue={1}/></div>
+             <div className="ingredients-title"><span>Składniki:</span></div>
+             <div className="ingredients-list">
               <List
                 itemLayout="horizontal"
-                dataSource={ingredients}
+                dataSource={this.state.recipe.ingredients}
                 size="large"
                 renderItem={item => (
                   <List.Item>
                       <List.Item.Meta
                         title={item.name} />
-                      <div>{item.amount}</div>
+                      <div>{item.quantity} {item.unit}</div>
                   </List.Item>
                 )}
-            />
-           </div>
-        </div>
-        <span className="column-header">Galeria</span>
-        <div className="gallery">
-          <DztImageGalleryComponent imageBackgroundColor="red"
-            images={photos} />
-        </div>
+              />
+              </div>
+            </div>
+          <span className="column-header">Galeria</span>
+          <div className="gallery">
+            <DztImageGalleryComponent imageBackgroundColor="red"
+              images={this.state.recipe.gallery} />
+          </div>
         </Col>
-      </Row>
-    </div>
+      </Row> : null
     );
   };
 }

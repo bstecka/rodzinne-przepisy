@@ -1,0 +1,17 @@
+.ant-card-body {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card {
+  height: 450px;  
+}
+
+.card-image {
+  object-fit: cover;
+  height: 300px;
+}
+
+.ant-list-item-meta-title {
+  text-transform: capitalize;
+}

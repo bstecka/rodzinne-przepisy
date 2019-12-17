@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card, Upload, Icon, message } from 'antd';
+import { Row, Col, Upload, Icon, message } from 'antd';
 import { Form, Button, Rate } from 'antd'
 import FormBuilder from 'antd-form-builder'
 import { withRouter } from "react-router-dom";

@@ -15,10 +15,10 @@ export default function App() {
       <PageLayout>
         <Route exact path="/" component={HomePage} />
         <Route path="/moje-przepisy" component={UserPage} />
-        <Route path="/przepis" component={Recipe} />
+        <Route path="/przepis/:id" component={Recipe} />
         <Route path="/dodaj" component={AddRecipe} />
         <Route path="/szukaj/:query" component={SearchPage} />
-        <Route path="/promocja" component={Sale} />
+        <Route path="/promocja/:id" component={Sale} />
       </PageLayout>
     </Switch>
   )

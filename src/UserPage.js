@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Col, List, Card, Tag } from 'antd';
 import { withRouter } from "react-router-dom";
+import RecipeList from './RecipeList.js'
 import './UserPage.css';
+import { apiURL } from './consts';
 
 const data = [
   {
@@ -32,10 +34,24 @@ const data = [
 
 class UserPage extends Component {
 
-  handleClick = () => {
-      this.props.history.push('/przepis');
+  constructor(props) {
+    super(props);
+    this.state = { recipes: [] };
   }
 
+  componentDidMount() {
+    fetch(`${apiURL}/recipes`)
+    .then(res => res.json())
+    .then((data) => {
+      this.setState({ recipes: data })
+    })
+    .catch(console.log)
+  }
+
+  handleClick = (path) => {
+    this.props.history.push(path);
+  }
+  
   render() {
     return (
       <div>
@@ -43,22 +59,7 @@ class UserPage extends Component {
           <Col span={24}>
             <span className="column-header">Moje przepisy</span>
             <div className="recipe-column">
-            <List
-              grid={{ gutter: 12, column: 3 }}
-              dataSource={data}
-              renderItem={item => (
-                <List.Item onClick={this.handleClick}>
-                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}
-                  <br/>
-                  <br/>
-                  <Tag color="red">obiad</Tag>
-                  <Tag color="purple">zdrowy</Tag>
-                  <Tag color="blue">wegetariańskie</Tag>
-                  <Tag color="green">warzywa</Tag>
-                  </Card>
-                </List.Item>
-              )}
-            />
+            <RecipeList  recipes={this.state.recipes} handleClick={this.handleClick} columns={3} />
             </div>
           </Col>
           <Col span={8}>
