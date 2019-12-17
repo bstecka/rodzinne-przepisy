@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Row, Col, List, Card } from 'antd';
+import { Row, Col } from 'antd';
 import { withRouter } from "react-router-dom";
-import './UserPage.css';
+import './HomePage.css';
+import { apiURL } from './consts';
+import RecipeList from './RecipeList.js'
 
 const data = [
   {
@@ -24,29 +26,52 @@ const data = [
 
 class SearchPage extends Component {
 
-  handleClick = () => {
-      this.props.history.push('/przepis');
+  constructor(props) {
+    super(props);
+    this.state = { recipes: [], query: '' };
+  }
+
+  fetchAndFilterRecipes(query) {
+    fetch(`${apiURL}/recipes`)
+    .then(res => res.json())
+    .then((data) => {
+      const filteredRecipes = data.filter(function(item){
+        const nameContains = item.title.toLowerCase().search(query) !== -1;
+        const tagContains = item.tags.some(item => item.name.search(query) !== -1);
+        const ingredientListContains = item.ingredients.some(item => item.name.search(query) !== -1);
+        return nameContains || tagContains || ingredientListContains;
+      });
+      this.setState({ query: query, recipes: filteredRecipes })
+    })
+    .catch(console.log)
+  }
+
+  componentDidMount() {
+    const { match: { params } } = this.props;
+    this.fetchAndFilterRecipes(params.query);
+  }
+
+  componentDidUpdate() {
+    const { match: { params } } = this.props;
+    if (this.state.query !== params.query)
+      this.fetchAndFilterRecipes(params.query);
+  }
+
+  handleClick = (path) => {
+    this.props.history.push(path);
   }
 
   render() {
     return (
       <div>
       <Row>
-        <Col span={16}>
+        <Col span={24}>
         <span className="column-header">Szukaj przepisów</span>
             <div className="recipe-column">
-            <List
-              grid={{ gutter: 12, column: 2 }}
-              dataSource={data}
-              renderItem={item => (
-                <List.Item onClick={this.handleClick}>
-                  <Card hoverable cover={<img alt="example" src={item.url} />}>{item.title}</Card>
-                </List.Item>
-              )}
-            />
+              {this.state.recipes.length > 2
+              ? <RecipeList recipes={this.state.recipes} handleClick={this.handleClick} columns={3}/>
+              : <RecipeList recipes={this.state.recipes} handleClick={this.handleClick} columns={this.state.recipes.length}/>}
             </div>
-        </Col>
-        <Col span={8}>
         </Col>
       </Row>
     </div>

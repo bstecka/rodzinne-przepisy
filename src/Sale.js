@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Row, Col, List, Card, Avatar } from 'antd';
 import './Sale.css';
+import { apiURL } from './consts';
 
 const salesStores = [
     {
@@ -37,37 +38,46 @@ const salesStores = [
     },
   ];
 
-function Sale() {
-  return (
-    <div>
-    <Row>
-      <Col span={10}>
-      <span className="column-header">Informacje o promocji</span>
-          <div className="sale-image">
-          <Card cover={<img alt="example" src={'https://zasoby.ekologia.pl/artykulyNew/18517/xxl/shutterstock-785296315_800x600.jpg'} />}>Awokado</Card>
-          </div>
-      </Col>
-      <Col span={14}>
-      <span className="column-header">Promocje w sklepach</span>
-      <List className="sales-list"
-        itemLayout="horizontal"
-        dataSource={salesStores}
-        size="large"
-        renderItem={item => (
-        <List.Item>
-            <List.Item.Meta
-            width={150}
-            avatar={<Avatar src={item.url} shape="square"/>}
-            title={item.title}
-            />
-            <div>{parseFloat(Math.random()*6).toFixed(2) + " zł"}</div>
-        </List.Item>
-        )}
-        />
-      </Col>
-    </Row>
-  </div>
-  );
+class Sale extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { sale: null };
+  }
+
+  componentDidMount() {
+    const { match: { params } } = this.props;
+    fetch(`${apiURL}/sales/${params.id}`)
+    .then(res => res.json())
+    .then((data) => {
+      this.setState({ sale: data })
+    })
+    .catch(console.log)
+  }
+
+  render() {
+    return (
+    (
+    this.state.sale
+    ? <Row>
+          <Col span={10}>
+          <span className="column-header">{this.state.sale.product_name}</span>
+              <div className="sale-image">
+              <Card cover={<img alt="example" src={this.state.sale.product_url} />}>{this.state.sale.product_name}</Card>
+              </div>
+          </Col>
+          <Col span={14}>
+          <span className="column-header">Promocje w sklepach</span>
+          <List className="sales-list" itemLayout="horizontal" dataSource={this.state.sale.stores} size="large" 
+              renderItem={item => <List.Item>
+                <List.Item.Meta width={150} avatar={<Avatar src={item.logo_url} shape="square" />} title={item.name} />
+                <div>{item.price} zł</div>
+            </List.Item>} />
+          </Col>
+        </Row>
+    : null
+    ));
+  }
 }
 
 export default Sale;

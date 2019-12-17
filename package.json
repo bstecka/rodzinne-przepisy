@@ -10,17 +10,17 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-native-youtube": "^2.0.0",
+    "react-object-fit-cover": "^1.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "reactjs-image-gallery": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=5000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "json:server" : "json-server --watch db.json"
-    
+    "json:server": "json-server --watch db.json"
   },
   "eslintConfig": {
     "extends": "react-app"
