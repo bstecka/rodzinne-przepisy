@@ -1,803 +1,807 @@
 {
-    "recipes": [
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Zdrowy burger",
+      "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
+      "saved": "false",
+      "difficulty": 4.5,
+      "diet_type": {
+        "id": 1,
+        "name": "Standardowa"
+      },
+      "tags": [
         {
-            "id": "1",
-            "title": "Zdrowy burger",
-            "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
-            "difficulty": 4.5,
-            "diet_type": {
-                "id": 1,
-                "name": "Standardowa"
-            },
-            "tags": [
-                {
-                    "id": 1,
-                    "name": "fast food"
-                },
-                {
-                    "id": 2,
-                    "name": "warzywa"
-                },
-                {
-                    "id": 3,
-                    "name": "pomysł na obiad"
-                },
-                {
-                    "id": 4,
-                    "name": "szybkie danie"
-                },
-                {
-                    "id": 5,
-                    "name": "dieta mięsna"
-                }
-            ],
-            "ingredients": [
-                {
-                    "name": "mięso wołowe z udźca",
-                    "quantity": 700,
-                    "unit": "g"
-                }, 
-                {
-                    "name": "Sos Hellmann's Green Pepper",
-                    "quantity": 4,
-                    "unit": "łyzki"
-                }, 
-                {
-                    "name": "Przyprawa do kurczka Knorr",
-                    "quantity": 2,
-                    "unit": "łyzki"
-                }, 
-                {
-                    "name": "ser pleśniowy typu blue",
-                    "quantity": 100,
-                    "unit": "g"
-                }, 
-                {
-                    "name": "musztarda Dijon",
-                    "quantity": 1,
-                    "unit": "łyzeczka"
-                }, 
-                {
-                    "name": "natka pietruszki (posiekana)",
-                    "quantity": 1,
-                    "unit": "łyzka"
-                }, 
-                {
-                    "name": "ser zółty",
-                    "quantity": 4,
-                    "unit": "plastry"
-                }, 
-                {
-                    "name": "sałata karbowana ciemna, liście",
-                    "quantity": 4,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "bułki do hamburgerów",
-                    "quantity": 4,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "sól",
-                    "quantity": 1,
-                    "unit": "szczypta"
-                }, 
-                {
-                    "name": "pieprz",
-                    "quantity": 1,
-                    "unit": "szczypta"
-                }, 
-                {
-                    "name": "czerwona cebula",
-                    "quantity": 6,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "ocet balsamiczny",
-                    "quantity": 4,
-                    "unit": "łyżki"
-                }, 
-                {
-                    "name": "olej",
-                    "quantity": 2,
-                    "unit": "łyżki"
-                }
-            ], 
-            "gallery": [
-                {
-                    "id": 1,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
-                }, 
-                {
-                    "id": 2,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
-                }, 
-                {
-                    "id": 3,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
-                }, 
-                {
-                    "id": 4,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
-                }, 
-                {
-                    "id": 5,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
-                }, 
-                {
-                    "id": 6,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
-                }
-            ],
-            "recipe_steps":[
-                {
-                    "id": "Krok 1",
-                    "description": "Cebule pokrój w piórka, przesmaż w garnku na rozgrzanej oliwie, dodaj cukier oraz ocet balsamiczny. Duś na wolnym ogniu przez 30 minut podlewając odrobiną wody od czasu do czasu."
-                }, 
-                {
-                    "id": "Krok 2",
-                    "description": "Mięso oczyść z błon, następnie zmiel w maszynce. Dodaj do mięsa przyprawę Knorr, posiekaną natkę, musztardę, pieprz oraz pokruszony ser. Wyrób jednolitą masę i uformuj 8 płaskich burgerów."
-                },
-                {
-                    "id": "Krok 3",
-                    "description": "Uformowane kotlety smaż na rozgrzanym grillu po 5 minut z każdej strony. W tym samym czasie opiecz na grillu również bułki a następnie posmaruj je sosem Hellmann’s Green Pepper z obu stron."
-                },
-                {
-                    "id": "Krok 4",
-                    "description": "Na 4 burgery połóż plasterki żółtego sera, aby się roztopił. Na pozostałe 4 nałóż porcję cebulowej konfitury."
-                },
-                {
-                    "id": "Krok 5",
-                    "description": "Na bułkę połóż liść sałaty, następnie połóż burgera z konfiturą i przykryj burgerem z roztopionym serem. Wierzch przykryj pozostałą bułką. Gotowe hamburgery możesz spiąć długą wykałaczką. Podawaj z frytkami i sałatką coleslaw."
-                }
-            ]
+          "id": 1,
+          "name": "fast food"
         },
         {
-            "id": "2",
-            "title": "Tort bezowo-ajerkoniakowy",
-            "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
-            "difficulty": 5,
-            "diet_type": {
-                "id": 2,
-                "name": "Wegetariańska"
-            },
-            "tags": [
-                {
-                    "id": 6,
-                    "name": "wegetariańskie"
-                },
-                {
-                    "id": 8,
-                    "name": "deser"
-                },
-                {
-                    "id": 9,
-                    "name": "słodycze"
-                },
-                {
-                    "id": 10,
-                    "name": "owoce"
-                },
-                {
-                    "id": 11,
-                    "name": "alkohol"
-                }
-            ],
-            "ingredients": [
-                {
-                    "name": "białko",
-                    "quantity": 6,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "cukier",
-                    "quantity": 375,
-                    "unit": "g"
-                }, 
-                {
-                    "name": "ocet",
-                    "quantity": 1,
-                    "unit": "łyżeczka"
-                }, 
-                {
-                    "name": "mąka ziemniaczana",
-                    "quantity": 1,
-                    "unit": "łyżka"
-                }, 
-                {
-                    "name": "mielona kawa",
-                    "quantity": 4,
-                    "unit": "łyżki"
-                }, 
-                {
-                    "name": "sól",
-                    "quantity": 1,
-                    "unit": "szczypta"
-                }, 
-                {
-                    "name": "Kostka do pieczenia Kasia",
-                    "quantity": 2,
-                    "unit": "opakowania"
-                }, 
-                {
-                    "name": "cukier puder",
-                    "quantity": 1,
-                    "unit": "szklanka"
-                }, 
-                {
-                    "name": "ajerkoniak",
-                    "quantity": 375,
-                    "unit": "ml"
-                }, 
-                {
-                    "name": "owoce",
-                    "quantity": 0,
-                    "unit": ""
-                }
-            ], 
-            "gallery": [
-                {
-                    "id": 1,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
-                }, 
-                {
-                    "id": 2,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
-                }, 
-                {
-                    "id": 3,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
-                }, 
-                {
-                    "id": 4,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
-                }, 
-                {
-                    "id": 5,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
-                }, 
-                {
-                    "id": 6,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
-                }, 
-                {
-                    "id": 7,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
-                }
-            ],
-            "recipe_steps":[
-                {
-                    "id": "Krok 1",
-                    "description": "Zimne białka ubij na sztywno ze szczyptą soli. Następnie ciągle ubijając dodaj po trochu cukier."
-                }, 
-                {
-                    "id": "Krok 2",
-                    "description": "Na koniec wsyp mąkę ziemniaczaną i wlej ocet, delikatnie wymieszaj łyżką. Na dwóch arkuszach papieru do pieczenia narysuj koła o średnicy 22 cm. Arkusze papieru połóż na dwóch płaskich blachach. Piekarnik ustaw na termoobieg i nagrzej do 180st.C."
-                },
-                {
-                    "id": "Krok 3",
-                    "description": "Na każdą blaszkę przełóż po połowie masy bezowej i wstaw do piekarnika. Po 5 minutach zmniejsz temperaturę do 130 stopni i susz bezy minimum 60 minut."
-                },
-                {
-                    "id": "Krok 4",
-                    "description": "Przygotuj krem. Kasię ubij dokładnie, aby stała się delikatna i lekka. Ciągle ubijając dodawaj partiami cukier puder i ajerkoniak."
-                },
-                {
-                    "id": "Krok 5",
-                    "description": "Na paterze ułóż krążek bezy. Na bezę wyłóż krem i posyp kawą. 1 łyżkę kawy zostaw do posypania wierzchu tortu."
-                },
-                {
-                    "id": "Krok 6",
-                    "description": "Przykryj drugim krążkiem i delikatnie dociśnij. Całość posyp resztą kawy i udekoruj owocami."
-                }
-            ]
+          "id": 2,
+          "name": "warzywa"
         },
         {
-            "id": "3",
-            "title": "Indyjska zupa pomidorowa",
-            "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
-            "difficulty": 3,
-            "diet_type": {
-                "id": 3,
-                "name": "Wegańska"
-            },
-            "tags": [
-                {
-                    "id": 6,
-                    "name": "wegetariańskie"
-                },
-                {
-                    "id": 7,
-                    "name": "wegańskie"
-                },
-                {
-                    "id": 12,
-                    "name": "azjatyckie"
-                },
-                {
-                    "id": 13,
-                    "name": "zupa"
-                },
-                {
-                    "id": 2,
-                    "name": "warzywa"
-                },
-                {
-                    "id": 3,
-                    "name": "pomysł na obiad"
-                },
-                {
-                    "id": 4,
-                    "name": "szybkie danie"
-                }
-            ],
-            "ingredients": [
-                {
-                    "name": "pomidory w puszce",
-                    "quantity": 2,
-                    "unit": "puszki"
-                }, 
-                {
-                    "name": "mleko kokosowe z puszki",
-                    "quantity": 1,
-                    "unit": "puszka"
-                }, 
-                {
-                    "name": "Bulion na włoszczyźnie Knorr",
-                    "quantity": 400,
-                    "unit": "ml (woda)"
-                }, 
-                {
-                    "name": "cebula",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "świeży imbir - 3 cm kawałek",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "ząbek czosnku",
-                    "quantity": 2,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "papryczka chilli",
-                    "quantity": 2,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": " Liść laurowy z Turcji Knorr",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "Kmin rzymski z Indii mielony Knorr",
-                    "quantity": 1,
-                    "unit": "łyżeczka"
-                }, 
-                {
-                    "name": "kolendra mielona",
-                    "quantity": 0.5,
-                    "unit": "łyżki"
-                }, 
-                {
-                    "name": "Przyprawa Garam Masala Knorr",
-                    "quantity": 0.5,
-                    "unit": "łyżeczki"
-                }, 
-                {
-                    "name": "olej do smażenia",
-                    "quantity": 0,
-                    "unit": ""
-                }
-            ], 
-            "gallery": [
-                {
-                    "id": 1,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
-                }, 
-                {
-                    "id": 2,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
-                }, 
-                {
-                    "id": 3,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
-                }, 
-                {
-                    "id": 4,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
-                }, 
-                {
-                    "id": 5,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
-                }, 
-                {
-                    "id": 6,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
-                }, 
-                {
-                    "id": 7,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
-                }
-            ],
-            "recipe_steps":[
-                {
-                    "id": "Krok 1",
-                    "description": "Podgrzej olej w dużym garnku. Posiekaj cebulę i czosnek, zetrzyj imbir na tarce, dodaj i smaż w garnku, aż cebula będzie miękka."
-                }, 
-                {
-                    "id": "Krok 2",
-                    "description": "Posiekaj chilli. Następnie dodaj do cebuliwraz z liściem laurowym, kminem rzymskim, kolendrą i garam masalą. Smaż przez około 4-5 minut, następnie dodaj pomidory."
-                },
-                {
-                    "id": "Krok 3",
-                    "description": "Dolej mleko kokosowe i 400 mililitrów wody. Następnie dodaj kostkę Knorr."
-                },
-                {
-                    "id": "Krok 4",
-                    "description": "Gotuj około 15-20 minut, a następnie zmiksuj blenderem. Podawaj z pieczywem. Możesz posypać świeżą kolendrą."
-                }
-            ]
+          "id": 3,
+          "name": "pomysł na obiad"
         },
         {
-            "id": "4",
-            "title": "Kanapka klubowa z cukinią i awokado",
-            "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
-            "difficulty": 2.5,
-            "diet_type": {
-                "id": 2,
-                "name": "Wegetariańska"
-            },
-            "tags": [
-                {
-                    "id": 6,
-                    "name": "wegetariańskie"
-                },
-                {
-                    "id": 2,
-                    "name": "warzywa"
-                },
-                {
-                    "id": 4,
-                    "name": "szybkie danie"
-                },
-                {
-                    "id": 14,
-                    "name": "śniadanie"
-                }
-            ],
-            "ingredients": [
-                {
-                    "name": "pieczywo pełnoziarniste, kromki",
-                    "quantity": 6,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "Rama 100% Roślinna",
-                    "quantity": 40,
-                    "unit": "g"
-                }, 
-                {
-                    "name": "cukinia",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "awokado",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "ząbek czosnku",
-                    "quantity": 1,
-                    "unit": "szt."
-                }, 
-                {
-                    "name": "sól",
-                    "quantity": 1,
-                    "unit": "szczypta"
-                }, 
-                {
-                    "name": "Pieprz czarny z Wietnamu mielony Knorr",
-                    "quantity": 1,
-                    "unit": "szczypta"
-                }, 
-                {
-                    "name": "kiełki słonecznika",
-                    "quantity": 1,
-                    "unit": "garść"
-                }
-            ], 
-            "gallery": [
-                {
-                    "id": 1,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
-                }, 
-                {
-                    "id": 2,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
-                }, 
-                {
-                    "id": 3,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
-                }, 
-                {
-                    "id": 4,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
-                }, 
-                {
-                    "id": 5,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
-                }, 
-                {
-                    "id": 6,
-                    "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
-                }
-            ],
-            "recipe_steps":[
-                {
-                    "id": "Krok 1",
-                    "description": "Czosnek posiekaj drobno i rozmieszaj dokładnie z margaryną, dopraw do smaku. Tak przygotowana margaryną posmaruj kromki pieczywa."
-                }, 
-                {
-                    "id": "Krok 2",
-                    "description": "Awokado przekrój na pół ostrym nożem, następnie „brodę” noża wbij ostrożnie w pestkę owocu, przekręć nóż i wyjmij pestkę. Łyżką stołową jednym ruchem wydrąż miąższ, a następnie pokrój w plastry."
-                },
-                {
-                    "id": "Krok 3",
-                    "description": "Cukinię pokrój wzdłuż w cienkie plastry – rozłóż na papierowym ręczniku i oprósz lekko solą. Po kilku minutach zbierz papierowym ręcznikiem wodę."
-                },
-                {
-                    "id": "Krok 4",
-                    "description": "Kromki pieczywa posmaruj czosnkową margaryną i opiecz krótko na ruszcie w rozgrzanym do 200° C piekarniku. Przygotuj dwie klubowe kanapki: na dwie kromki pieczywa nałóż dekoracyjnie plastry cukinii, na kolejne dwie nałóż plastry awokado oraz kiełki słonecznika. Pozostałe dwie kromki pozostaw."
-                },
-                {
-                    "id": "Krok 5",
-                    "description": "Na kromkę pieczywa z cukinią nałóż kromkę z awokado i kiełkami – przykryj trzecią, „pustą” kromką. Złóż w ten sposób dwie kanapki. Kanapki przyciśnij lekko dłonią, przekrój po przekątnej na pół i od razu podawaj."
-                }
-            ]
+          "id": 4,
+          "name": "szybkie danie"
+        },
+        {
+          "id": 5,
+          "name": "dieta mięsna"
         }
-    ],
-    "tags": [
+      ],
+      "ingredients": [
         {
-            "id": 1,
-            "name": "fast food"
+          "name": "mięso wołowe z udźca",
+          "quantity": 700,
+          "unit": "g"
         },
         {
-            "id": 2,
-            "name": "warzywa"
+          "name": "Sos Hellmann's Green Pepper",
+          "quantity": 4,
+          "unit": "łyzki"
         },
         {
-            "id": 3,
-            "name": "pomysł na obiad"
+          "name": "Przyprawa do kurczka Knorr",
+          "quantity": 2,
+          "unit": "łyzki"
         },
         {
-            "id": 4,
-            "name": "szybkie danie"
+          "name": "ser pleśniowy typu blue",
+          "quantity": 100,
+          "unit": "g"
         },
         {
-            "id": 5,
-            "name": "dieta mięsna"
+          "name": "musztarda Dijon",
+          "quantity": 1,
+          "unit": "łyzeczka"
         },
         {
-            "id": 6,
-            "name": "wegetariańskie"
+          "name": "natka pietruszki (posiekana)",
+          "quantity": 1,
+          "unit": "łyzka"
         },
         {
-            "id": 7,
-            "name": "wegańskie"
+          "name": "ser zółty",
+          "quantity": 4,
+          "unit": "plastry"
         },
         {
-            "id": 8,
-            "name": "deser"
+          "name": "sałata karbowana ciemna, liście",
+          "quantity": 4,
+          "unit": "szt."
         },
         {
-            "id": 9,
-            "name": "słodycze"
+          "name": "bułki do hamburgerów",
+          "quantity": 4,
+          "unit": "szt."
         },
         {
-            "id": 10,
-            "name": "owoce"
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
         },
         {
-            "id": 11,
-            "name": "alkohol"
+          "name": "pieprz",
+          "quantity": 1,
+          "unit": "szczypta"
         },
         {
-            "id": 12,
-            "name": "azjatyckie"
+          "name": "czerwona cebula",
+          "quantity": 6,
+          "unit": "szt."
         },
         {
-            "id": 13,
-            "name": "zupa"
+          "name": "ocet balsamiczny",
+          "quantity": 4,
+          "unit": "łyżki"
         },
         {
-            "id": 14,
-            "name": "śniadanie"
+          "name": "olej",
+          "quantity": 2,
+          "unit": "łyżki"
         }
-    ], 
-    "diet_types": [
+      ],
+      "gallery": [
         {
-            "id": 1,
-            "name": "Standardowa"
+          "id": 1,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
         },
         {
-            "id": 2,
-            "name": "Wegetariańska"
+          "id": 2,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
         },
         {
-            "id": 3,
-            "name": "Wegańska"
+          "id": 3,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
+        },
+        {
+          "id": 4,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
+        },
+        {
+          "id": 5,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
+        },
+        {
+          "id": 6,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
         }
-    ],
-    "sales": [
+      ],
+      "recipe_steps": [
         {
-            "id": 1,
-            "product_name": "Cytryny",
-            "product_url": "https://s6.dziennik.pl/pliki/4710000/4710498-cytryna-643-477.jpg",
-            "stores": [
-                {
-                    "id": 1,
-                    "name" : "Biedronka",
-                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
-                    "price": 3.29
-                },
-                {
-                    "id": 2,
-                    "name" : "Lidl",
-                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
-                    "price": 3.99
-                },
-                {
-                    "id": 3,
-                    "name" : "Kaufland",
-                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
-                    "price": 4.19
-                },
-                {
-                    "id": 4,
-                    "name" : "Auchan",
-                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
-                    "price": 3.59
-                },
-                {
-                    "id": 5,
-                    "name" : "Piotr i Paweł",
-                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
-                    "price": 5.99
-                },
-                {
-                    "id": 6,
-                    "name" : "Carrefour",
-                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
-                    "price": 4.79
-                },
-                {
-                    "id": 7,
-                    "name" : "Tesco",
-                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
-                    "price": 5.19
-                },
-                {
-                    "id": 8,
-                    "name" : "T&J",
-                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
-                    "price": 6.99
-                }
-            ]
+          "id": "Krok 1",
+          "description": "Cebule pokrój w piórka, przesmaż w garnku na rozgrzanej oliwie, dodaj cukier oraz ocet balsamiczny. Duś na wolnym ogniu przez 30 minut podlewając odrobiną wody od czasu do czasu."
         },
         {
-            "id": 2,
-            "product_name": "Awokado",
-            "product_url": "https://zasoby.ekologia.pl/artykulyNew/18517/xxl/shutterstock-785296315_800x600.jpg",
-            "stores": [
-                {
-                    "id": 1,
-                    "name" : "Biedronka",
-                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
-                    "price": 9.99
-                },
-                {
-                    "id": 2,
-                    "name" : "Lidl",
-                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
-                    "price": 11.99
-                },
-                {
-                    "id": 3,
-                    "name" : "Kaufland",
-                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
-                    "price": 10.19
-                },
-                {
-                    "id": 4,
-                    "name" : "Auchan",
-                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
-                    "price": 8.99
-                },
-                {
-                    "id": 5,
-                    "name" : "Piotr i Paweł",
-                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
-                    "price": 13.99
-                },
-                {
-                    "id": 6,
-                    "name" : "Carrefour",
-                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
-                    "price": 10.79
-                },
-                {
-                    "id": 7,
-                    "name" : "Tesco",
-                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
-                    "price": 7.89
-                },
-                {
-                    "id": 8,
-                    "name" : "T&J",
-                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
-                    "price": 14.99
-                }
-            ]
+          "id": "Krok 2",
+          "description": "Mięso oczyść z błon, następnie zmiel w maszynce. Dodaj do mięsa przyprawę Knorr, posiekaną natkę, musztardę, pieprz oraz pokruszony ser. Wyrób jednolitą masę i uformuj 8 płaskich burgerów."
         },
         {
-            "id": 3,
-            "product_name": "Pomidor malinowy",
-            "product_url": "http://www.sklepogrodniczy.net.pl/images/POMIDOR%20HA%203626%20NASIONA%20HAZERA.jpg",
-            "stores": [
-                {
-                    "id": 1,
-                    "name" : "Biedronka",
-                    "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
-                    "price": 4.99
-                },
-                {
-                    "id": 2,
-                    "name" : "Lidl",
-                    "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
-                    "price": 4.99
-                },
-                {
-                    "id": 3,
-                    "name" : "Kaufland",
-                    "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
-                    "price": 5.19
-                },
-                {
-                    "id": 4,
-                    "name" : "Auchan",
-                    "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
-                    "price": 3.99
-                },
-                {
-                    "id": 5,
-                    "name" : "Piotr i Paweł",
-                    "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
-                    "price": 7.99
-                },
-                {
-                    "id": 6,
-                    "name" : "Carrefour",
-                    "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
-                    "price": 4.79
-                },
-                {
-                    "id": 7,
-                    "name" : "Tesco",
-                    "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
-                    "price": 5.89
-                },
-                {
-                    "id": 8,
-                    "name" : "T&J",
-                    "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
-                    "price": 7.99
-                }
-            ]
+          "id": "Krok 3",
+          "description": "Uformowane kotlety smaż na rozgrzanym grillu po 5 minut z każdej strony. W tym samym czasie opiecz na grillu również bułki a następnie posmaruj je sosem Hellmann’s Green Pepper z obu stron."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Na 4 burgery połóż plasterki żółtego sera, aby się roztopił. Na pozostałe 4 nałóż porcję cebulowej konfitury."
+        },
+        {
+          "id": "Krok 5",
+          "description": "Na bułkę połóż liść sałaty, następnie połóż burgera z konfiturą i przykryj burgerem z roztopionym serem. Wierzch przykryj pozostałą bułką. Gotowe hamburgery możesz spiąć długą wykałaczką. Podawaj z frytkami i sałatką coleslaw."
         }
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Tort bezowo-ajerkoniakowy",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
+      "saved": "true",
+      "difficulty": 5,
+      "diet_type": {
+        "id": 2,
+        "name": "Wegetariańska"
+      },
+      "tags": [
+        {
+          "id": 6,
+          "name": "wegetariańskie"
+        },
+        {
+          "id": 8,
+          "name": "deser"
+        },
+        {
+          "id": 9,
+          "name": "słodycze"
+        },
+        {
+          "id": 10,
+          "name": "owoce"
+        },
+        {
+          "id": 11,
+          "name": "alkohol"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "białko",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "cukier",
+          "quantity": 375,
+          "unit": "g"
+        },
+        {
+          "name": "ocet",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "mąka ziemniaczana",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "mielona kawa",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Kostka do pieczenia Kasia",
+          "quantity": 2,
+          "unit": "opakowania"
+        },
+        {
+          "name": "cukier puder",
+          "quantity": 1,
+          "unit": "szklanka"
+        },
+        {
+          "name": "ajerkoniak",
+          "quantity": 375,
+          "unit": "ml"
+        },
+        {
+          "name": "owoce",
+          "quantity": 0,
+          "unit": ""
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
+        },
+        {
+          "id": 2,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
+        },
+        {
+          "id": 3,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
+        },
+        {
+          "id": 4,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
+        },
+        {
+          "id": 5,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
+        },
+        {
+          "id": 6,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
+        },
+        {
+          "id": 7,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Zimne białka ubij na sztywno ze szczyptą soli. Następnie ciągle ubijając dodaj po trochu cukier."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Na koniec wsyp mąkę ziemniaczaną i wlej ocet, delikatnie wymieszaj łyżką. Na dwóch arkuszach papieru do pieczenia narysuj koła o średnicy 22 cm. Arkusze papieru połóż na dwóch płaskich blachach. Piekarnik ustaw na termoobieg i nagrzej do 180st.C."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Na każdą blaszkę przełóż po połowie masy bezowej i wstaw do piekarnika. Po 5 minutach zmniejsz temperaturę do 130 stopni i susz bezy minimum 60 minut."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Przygotuj krem. Kasię ubij dokładnie, aby stała się delikatna i lekka. Ciągle ubijając dodawaj partiami cukier puder i ajerkoniak."
+        },
+        {
+          "id": "Krok 5",
+          "description": "Na paterze ułóż krążek bezy. Na bezę wyłóż krem i posyp kawą. 1 łyżkę kawy zostaw do posypania wierzchu tortu."
+        },
+        {
+          "id": "Krok 6",
+          "description": "Przykryj drugim krążkiem i delikatnie dociśnij. Całość posyp resztą kawy i udekoruj owocami."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Indyjska zupa pomidorowa",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
+      "saved": "false",
+      "difficulty": 3,
+      "diet_type": {
+        "id": 3,
+        "name": "Wegańska"
+      },
+      "tags": [
+        {
+          "id": 6,
+          "name": "wegetariańskie"
+        },
+        {
+          "id": 7,
+          "name": "wegańskie"
+        },
+        {
+          "id": 12,
+          "name": "azjatyckie"
+        },
+        {
+          "id": 13,
+          "name": "zupa"
+        },
+        {
+          "id": 2,
+          "name": "warzywa"
+        },
+        {
+          "id": 3,
+          "name": "pomysł na obiad"
+        },
+        {
+          "id": 4,
+          "name": "szybkie danie"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "pomidory w puszce",
+          "quantity": 2,
+          "unit": "puszki"
+        },
+        {
+          "name": "mleko kokosowe z puszki",
+          "quantity": 1,
+          "unit": "puszka"
+        },
+        {
+          "name": "Bulion na włoszczyźnie Knorr",
+          "quantity": 400,
+          "unit": "ml (woda)"
+        },
+        {
+          "name": "cebula",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "świeży imbir - 3 cm kawałek",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "papryczka chilli",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": " Liść laurowy z Turcji Knorr",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Kmin rzymski z Indii mielony Knorr",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "kolendra mielona",
+          "quantity": 0.5,
+          "unit": "łyżki"
+        },
+        {
+          "name": "Przyprawa Garam Masala Knorr",
+          "quantity": 0.5,
+          "unit": "łyżeczki"
+        },
+        {
+          "name": "olej do smażenia",
+          "quantity": 0,
+          "unit": ""
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
+        },
+        {
+          "id": 2,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
+        },
+        {
+          "id": 3,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
+        },
+        {
+          "id": 4,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
+        },
+        {
+          "id": 5,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
+        },
+        {
+          "id": 6,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
+        },
+        {
+          "id": 7,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Podgrzej olej w dużym garnku. Posiekaj cebulę i czosnek, zetrzyj imbir na tarce, dodaj i smaż w garnku, aż cebula będzie miękka."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Posiekaj chilli. Następnie dodaj do cebuliwraz z liściem laurowym, kminem rzymskim, kolendrą i garam masalą. Smaż przez około 4-5 minut, następnie dodaj pomidory."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Dolej mleko kokosowe i 400 mililitrów wody. Następnie dodaj kostkę Knorr."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Gotuj około 15-20 minut, a następnie zmiksuj blenderem. Podawaj z pieczywem. Możesz posypać świeżą kolendrą."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Kanapka klubowa z cukinią i awokado",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
+      "saved": "false",
+      "difficulty": 2.5,
+      "diet_type": {
+        "id": 2,
+        "name": "Wegetariańska"
+      },
+      "tags": [
+        {
+          "id": 6,
+          "name": "wegetariańskie"
+        },
+        {
+          "id": 2,
+          "name": "warzywa"
+        },
+        {
+          "id": 4,
+          "name": "szybkie danie"
+        },
+        {
+          "id": 14,
+          "name": "śniadanie"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "pieczywo pełnoziarniste, kromki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "Rama 100% Roślinna",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "name": "cukinia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "kiełki słonecznika",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
+        },
+        {
+          "id": 2,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
+        },
+        {
+          "id": 3,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
+        },
+        {
+          "id": 4,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
+        },
+        {
+          "id": 5,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
+        },
+        {
+          "id": 6,
+          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Czosnek posiekaj drobno i rozmieszaj dokładnie z margaryną, dopraw do smaku. Tak przygotowana margaryną posmaruj kromki pieczywa."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Awokado przekrój na pół ostrym nożem, następnie „brodę” noża wbij ostrożnie w pestkę owocu, przekręć nóż i wyjmij pestkę. Łyżką stołową jednym ruchem wydrąż miąższ, a następnie pokrój w plastry."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Cukinię pokrój wzdłuż w cienkie plastry – rozłóż na papierowym ręczniku i oprósz lekko solą. Po kilku minutach zbierz papierowym ręcznikiem wodę."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Kromki pieczywa posmaruj czosnkową margaryną i opiecz krótko na ruszcie w rozgrzanym do 200° C piekarniku. Przygotuj dwie klubowe kanapki: na dwie kromki pieczywa nałóż dekoracyjnie plastry cukinii, na kolejne dwie nałóż plastry awokado oraz kiełki słonecznika. Pozostałe dwie kromki pozostaw."
+        },
+        {
+          "id": "Krok 5",
+          "description": "Na kromkę pieczywa z cukinią nałóż kromkę z awokado i kiełkami – przykryj trzecią, „pustą” kromką. Złóż w ten sposób dwie kanapki. Kanapki przyciśnij lekko dłonią, przekrój po przekątnej na pół i od razu podawaj."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "fast food"
+    },
+    {
+      "id": 2,
+      "name": "warzywa"
+    },
+    {
+      "id": 3,
+      "name": "pomysł na obiad"
+    },
+    {
+      "id": 4,
+      "name": "szybkie danie"
+    },
+    {
+      "id": 5,
+      "name": "dieta mięsna"
+    },
+    {
+      "id": 6,
+      "name": "wegetariańskie"
+    },
+    {
+      "id": 7,
+      "name": "wegańskie"
+    },
+    {
+      "id": 8,
+      "name": "deser"
+    },
+    {
+      "id": 9,
+      "name": "słodycze"
+    },
+    {
+      "id": 10,
+      "name": "owoce"
+    },
+    {
+      "id": 11,
+      "name": "alkohol"
+    },
+    {
+      "id": 12,
+      "name": "azjatyckie"
+    },
+    {
+      "id": 13,
+      "name": "zupa"
+    },
+    {
+      "id": 14,
+      "name": "śniadanie"
+    }
+  ],
+  "diet_types": [
+    {
+      "id": 1,
+      "name": "Standardowa"
+    },
+    {
+      "id": 2,
+      "name": "Wegetariańska"
+    },
+    {
+      "id": 3,
+      "name": "Wegańska"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "product_name": "Cytryny",
+      "product_url": "https://s6.dziennik.pl/pliki/4710000/4710498-cytryna-643-477.jpg",
+      "stores": [
+        {
+          "id": 1,
+          "name": "Biedronka",
+          "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+          "price": 3.29
+        },
+        {
+          "id": 2,
+          "name": "Lidl",
+          "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+          "price": 3.99
+        },
+        {
+          "id": 3,
+          "name": "Kaufland",
+          "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+          "price": 4.19
+        },
+        {
+          "id": 4,
+          "name": "Auchan",
+          "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+          "price": 3.59
+        },
+        {
+          "id": 5,
+          "name": "Piotr i Paweł",
+          "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+          "price": 5.99
+        },
+        {
+          "id": 6,
+          "name": "Carrefour",
+          "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+          "price": 4.79
+        },
+        {
+          "id": 7,
+          "name": "Tesco",
+          "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+          "price": 5.19
+        },
+        {
+          "id": 8,
+          "name": "T&J",
+          "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product_name": "Awokado",
+      "product_url": "https://zasoby.ekologia.pl/artykulyNew/18517/xxl/shutterstock-785296315_800x600.jpg",
+      "stores": [
+        {
+          "id": 1,
+          "name": "Biedronka",
+          "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+          "price": 9.99
+        },
+        {
+          "id": 2,
+          "name": "Lidl",
+          "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+          "price": 11.99
+        },
+        {
+          "id": 3,
+          "name": "Kaufland",
+          "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+          "price": 10.19
+        },
+        {
+          "id": 4,
+          "name": "Auchan",
+          "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+          "price": 8.99
+        },
+        {
+          "id": 5,
+          "name": "Piotr i Paweł",
+          "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+          "price": 13.99
+        },
+        {
+          "id": 6,
+          "name": "Carrefour",
+          "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+          "price": 10.79
+        },
+        {
+          "id": 7,
+          "name": "Tesco",
+          "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+          "price": 7.89
+        },
+        {
+          "id": 8,
+          "name": "T&J",
+          "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product_name": "Pomidor malinowy",
+      "product_url": "http://www.sklepogrodniczy.net.pl/images/POMIDOR%20HA%203626%20NASIONA%20HAZERA.jpg",
+      "stores": [
+        {
+          "id": 1,
+          "name": "Biedronka",
+          "logo_url": "https://pbs.twimg.com/profile_images/3578001181/990ad36a51b8e483cde968adbb53df5a_400x400.png",
+          "price": 4.99
+        },
+        {
+          "id": 2,
+          "name": "Lidl",
+          "logo_url": "https://www.freeiconspng.com/uploads/lidl-logo-icon-5.jpg",
+          "price": 4.99
+        },
+        {
+          "id": 3,
+          "name": "Kaufland",
+          "logo_url": "https://banner2.cleanpng.com/20180614/cty/kisspng-kaufland-supermarket-business-lidl-retail-hbo-5b225f3334e139.5575801215289792512166.jpg",
+          "price": 5.19
+        },
+        {
+          "id": 4,
+          "name": "Auchan",
+          "logo_url": "https://atrium-copernicus.pl/assets/uploads/2019/04/auchan_logo.png",
+          "price": 3.99
+        },
+        {
+          "id": 5,
+          "name": "Piotr i Paweł",
+          "logo_url": "https://scontent.fpoz1-1.fna.fbcdn.net/v/t1.0-9/17362598_276259166130676_5306279389512007954_n.png?_nc_cat=110&_nc_ohc=cVu56mKGFp4AQnMMLyKmUgcszvuBcuU14-n1_5dOeM0hqFJEpF5xsJL2A&_nc_ht=scontent.fpoz1-1.fna&oh=0c890071a5b884f2ba389ed02edb5f14&oe=5E8AA3A2",
+          "price": 7.99
+        },
+        {
+          "id": 6,
+          "name": "Carrefour",
+          "logo_url": "http://bramapomorza.pl/wp-content/uploads/2018/05/Carrefour_Market.png",
+          "price": 4.79
+        },
+        {
+          "id": 7,
+          "name": "Tesco",
+          "logo_url": "https://practicalevents.pl/wp-content/uploads/2017/09/tesco-logo.png",
+          "price": 5.89
+        },
+        {
+          "id": 8,
+          "name": "T&J",
+          "logo_url": "http://tradycjaijakosc.com.pl/templates/images/logo.png",
+          "price": 7.99
+        }
+      ]
+    }
+  ]
 }

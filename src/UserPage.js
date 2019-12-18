@@ -43,7 +43,8 @@ class UserPage extends Component {
     fetch(`${apiURL}/recipes`)
     .then(res => res.json())
     .then((data) => {
-      this.setState({ recipes: data })
+      const filteredData = data.filter(item => item.saved.search('true') !== -1);
+      this.setState({ recipes: filteredData })
     })
     .catch(console.log)
   }
@@ -59,7 +60,9 @@ class UserPage extends Component {
           <Col span={24}>
             <span className="column-header">Moje przepisy</span>
             <div className="recipe-column">
-            <RecipeList  recipes={this.state.recipes} handleClick={this.handleClick} columns={3} />
+              {this.state.recipes.length > 2
+              ? <RecipeList recipes={this.state.recipes} handleClick={this.handleClick} columns={3}/>
+              : <RecipeList recipes={this.state.recipes} handleClick={this.handleClick} columns={this.state.recipes.length}/>}
             </div>
           </Col>
           <Col span={8}>

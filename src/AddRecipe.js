@@ -118,6 +118,7 @@ class AddRecipe extends Component {
         diet_type: diet_type,
         tags: tags,
         ingredients: ingredients,
+        saved: "false",
         gallery: [
           {
             id: 1,
