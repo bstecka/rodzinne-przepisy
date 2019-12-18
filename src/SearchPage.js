@@ -36,9 +36,9 @@ class SearchPage extends Component {
     .then(res => res.json())
     .then((data) => {
       const filteredRecipes = data.filter(function(item){
-        const nameContains = item.title.toLowerCase().search(query) !== -1;
-        const tagContains = item.tags.some(item => item.name.search(query) !== -1);
-        const ingredientListContains = item.ingredients.some(item => item.name.search(query) !== -1);
+        const nameContains = item.title ? item.title.toLowerCase().search(query) !== -1 : false;
+        const tagContains = item.tags ? item.tags.some(item => item.name.search(query) !== -1) : false;
+        const ingredientListContains = item.ingredients ? item.ingredients.some(item => item.name.search(query) !== -1) : false;
         return nameContains || tagContains || ingredientListContains;
       });
       this.setState({ query: query, recipes: filteredRecipes })
