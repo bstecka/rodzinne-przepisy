@@ -89,6 +89,150 @@
           "unit": "łyżki"
         }
       ],
+      "vegetarian_ingredients": [
+        {
+          "name": "tofu wędzone",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Sos Hellmann's Green Pepper",
+          "quantity": 4,
+          "unit": "łyzki"
+        },
+        {
+          "name": "Przyprawa do kurczka Knorr",
+          "quantity": 2,
+          "unit": "łyzki"
+        },
+        {
+          "name": "ser pleśniowy typu blue",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "musztarda Dijon",
+          "quantity": 1,
+          "unit": "łyzeczka"
+        },
+        {
+          "name": "natka pietruszki (posiekana)",
+          "quantity": 1,
+          "unit": "łyzka"
+        },
+        {
+          "name": "ser zółty",
+          "quantity": 4,
+          "unit": "plastry"
+        },
+        {
+          "name": "sałata karbowana ciemna, liście",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "bułki do hamburgerów",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "pieprz",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "czerwona cebula",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet balsamiczny",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "olej",
+          "quantity": 2,
+          "unit": "łyżki"
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "tofu wędzone",
+          "quantity": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Sos Hellmann's Green Pepper",
+          "quantity": 4,
+          "unit": "łyzki"
+        },
+        {
+          "name": "Przyprawa do kurczka Knorr",
+          "quantity": 2,
+          "unit": "łyzki"
+        },
+        {
+          "name": "wegański blok pleśniowy typu blue",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "musztarda Dijon",
+          "quantity": 1,
+          "unit": "łyzeczka"
+        },
+        {
+          "name": "natka pietruszki (posiekana)",
+          "quantity": 1,
+          "unit": "łyzka"
+        },
+        {
+          "name": "wegański ser zółty",
+          "quantity": 4,
+          "unit": "plastry"
+        },
+        {
+          "name": "sałata karbowana ciemna, liście",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "wegańskie bułki do hamburgerów",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "pieprz",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "czerwona cebula",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet balsamiczny",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "olej",
+          "quantity": 2,
+          "unit": "łyżki"
+        }
+      ],
       "gallery": [
         {
             "id": 1,
@@ -210,7 +354,59 @@
         },
         {
           "name": "Owoce",
-          "quantity": 0,
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "białko",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "cukier",
+          "quantity": 375,
+          "unit": "g"
+        },
+        {
+          "name": "ocet",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "mąka ziemniaczana",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "mielona kawa",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Kostka do pieczenia Kasia",
+          "quantity": 2,
+          "unit": "opakowania"
+        },
+        {
+          "name": "cukier puder",
+          "quantity": 1,
+          "unit": "szklanka"
+        },
+        {
+          "name": "ajerkoniak",
+          "quantity": 375,
+          "unit": "ml"
+        },
+        {
+          "name": "owoce",
+          "quantity": null,
           "unit": ""
         }
       ],
@@ -355,7 +551,131 @@
         },
         {
           "name": "Olej do smażenia",
-          "quantity": 0,
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "pomidory w puszce",
+          "quantity": 2,
+          "unit": "puszki"
+        },
+        {
+          "name": "mleko kokosowe z puszki",
+          "quantity": 1,
+          "unit": "puszka"
+        },
+        {
+          "name": "Bulion na włoszczyźnie Knorr",
+          "quantity": 400,
+          "unit": "ml (woda)"
+        },
+        {
+          "name": "cebula",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "świeży imbir - 3 cm kawałek",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "papryczka chilli",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": " Liść laurowy z Turcji Knorr",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Kmin rzymski z Indii mielony Knorr",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "kolendra mielona",
+          "quantity": 0.5,
+          "unit": "łyżki"
+        },
+        {
+          "name": "Przyprawa Garam Masala Knorr",
+          "quantity": 0.5,
+          "unit": "łyżeczki"
+        },
+        {
+          "name": "olej do smażenia",
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "pomidory w puszce",
+          "quantity": 2,
+          "unit": "puszki"
+        },
+        {
+          "name": "mleko kokosowe z puszki",
+          "quantity": 1,
+          "unit": "puszka"
+        },
+        {
+          "name": "Bulion na włoszczyźnie Knorr",
+          "quantity": 400,
+          "unit": "ml (woda)"
+        },
+        {
+          "name": "cebula",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "świeży imbir - 3 cm kawałek",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "papryczka chilli",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": " Liść laurowy z Turcji Knorr",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Kmin rzymski z Indii mielony Knorr",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "kolendra mielona",
+          "quantity": 0.5,
+          "unit": "łyżki"
+        },
+        {
+          "name": "Przyprawa Garam Masala Knorr",
+          "quantity": 0.5,
+          "unit": "łyżeczki"
+        },
+        {
+          "name": "olej do smażenia",
+          "quantity": null,
           "unit": ""
         }
       ],
@@ -460,6 +780,90 @@
         },
         {
           "name": "Kiełki słonecznika",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "pieczywo pełnoziarniste, kromki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "Rama 100% Roślinna",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "name": "cukinia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "kiełki słonecznika",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "wegańskie pieczywo pełnoziarniste, kromki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "biosełko wegańskie",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "name": "cukinia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "kiełki słonecznika",
           "quantity": 1,
           "unit": "garść"
         }
