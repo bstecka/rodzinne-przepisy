@@ -3,12 +3,14 @@ import { Row, Col, Upload, Icon, message } from 'antd';
 import { Form, Button, Rate } from 'antd'
 import FormBuilder from 'antd-form-builder'
 import { withRouter } from "react-router-dom";
+import { apiURL } from './consts';
 import './AddRecipe.css';
 
 const recipeStep = { 
-  key: 'textarea', 
+  key: 'recipe-step-0', 
   label: 'Krok 1', 
-  colSpan: 4, 
+  colSpan: 4,
+  required: true,
   tooltip: 'Opisz sposób przygotowywania potrawy.',
   widget: 'textarea',
 }
@@ -18,14 +20,18 @@ class AddRecipe extends Component {
   constructor(props) {
     super(props);
     const foodItem = { 
-      key: 'food-item-1', 
+      key: 'food-item-0', 
       tooltip: 'Podaj nazwę składnika.',
-      label: 'Nazwa składnika', 
+      label: 'Nazwa składnika',
+      required: true,
+      message: 'Podaj nazwę.',
       colSpan: 3 
     }
     const foodAmount = {
-      key: 'food-item-amount-1',
+      key: 'food-amount-0',
       tooltip: 'Podaj wymaganą ilość składnika wraz z jednostką.',
+      required: true,
+      message: 'Podaj ilość.',
       label: 'Ilość',
     }
     this.state = { 
@@ -60,8 +66,6 @@ class AddRecipe extends Component {
       return;
     }
     if (info.file.status === 'done') {
-      // Get this url from response in real world.
-      console.log('d');
       this.getBase64(info.file.originFileObj, imageUrl =>
         this.setState({
           imageUrl,
@@ -79,11 +83,72 @@ class AddRecipe extends Component {
 
   handleSubmit = (evt) => {
     evt.preventDefault();
-    this.props.history.push('/przepis');
+    this.props.form.validateFields()
+    .then(() => {
+      const fieldsValues = this.props.form.getFieldsValue();
+      const array = Object.entries(fieldsValues);
+      const foodItems = array.filter(item => item[0].search('food-item') !== -1);
+      const foodAmounts = array.filter(item => item[0].search('food-amount') !== -1);
+      const recipeSteps = array.filter(item => item[0].search('recipe-step') !== -1);
+      let ingredients = [];
+      var i;
+      for (i = 0; i < foodItems.length && i < foodAmounts.length; i++) {
+        const amount = parseInt(foodAmounts[i][1]) ? parseInt(foodAmounts[i][1]) : "";
+        const unit = foodAmounts[i][1] ? foodAmounts[i][1].replace(amount, "") : "";
+        ingredients.push({ name: foodItems[i][1], quantity: amount, unit: unit })
+      }
+      let recipe_steps = [];
+      for (i = 0; i < recipeSteps.length; i++) {
+        recipe_steps.push({ id: "Krok " + (i+1), description: recipeSteps[i][1] })
+      }
+      const diet_type = {
+        id: fieldsValues.diet_type === "Standardowa" ? 1 : (fieldsValues.diet_type === "Wegetariańska" ? 2 : 3),
+        name: fieldsValues.diet_type
+      }
+      const tags = [
+        {
+          id: 3,
+          name: "pomysł na obiad"
+        }
+      ];
+      const recipeObject = {
+        title: fieldsValues.title,
+        thumbnailUrl: "",
+        difficulty: fieldsValues.difficulty,
+        diet_type: diet_type,
+        tags: tags,
+        ingredients: ingredients,
+        saved: "false",
+        gallery: [
+          {
+            id: 1,
+            photoUrl: ""
+          }
+        ],
+        recipe_steps: recipe_steps
+      }
+      evt.preventDefault();
+      (async () => {
+        const rawResponse = await fetch(`${apiURL}/recipes/`, {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(recipeObject)
+        });
+        const content = await rawResponse.json();
+        if (content.id)
+          this.props.history.push('/przepis/' + content.id);
+      })();
+    })
+    .catch((error) => {
+      console.log(error);
+    });
   }
 
   render() {
-    const options = ['wegetariańskiej', 'wegańskiej'];
+    const options = ['Standardowa', 'Wegetariańska', 'Wegańska'];
     const uploadButton = (
       <div>
         <Icon type={this.state.loading ? 'loading' : 'plus'} />
@@ -124,14 +189,15 @@ class AddRecipe extends Component {
           },
         },
         {
-          key: 'name',
+          key: 'title',
           colSpan: 4,
           label: 'Nazwa',
           required: true,
+          message: 'Podaj nazwę potrawy.',
           tooltip: 'Podaj nazwę potrawy.',
         },
-        { key: 'rating', tooltip: 'Podaj trudność wykonania.', label: 'Trudność', widget: Rate, initialValue: 2 },
-        { key: 'number', tooltip: 'Podaj liczbę porcji dla przepisu.', colSpan: 4, required: true, initialValue: 1, label: 'Liczba porcji', widget: 'number' },
+        { key: 'difficulty', tooltip: 'Podaj trudność wykonania.', label: 'Trudność', widget: Rate, initialValue: 2 },
+        { key: 'portions', tooltip: 'Podaj liczbę porcji dla przepisu.', colSpan: 4, initialValue: 1, label: 'Liczba porcji', widget: 'number' },
         {
           key: 'label0',
           colSpan: 4,
@@ -168,13 +234,14 @@ class AddRecipe extends Component {
             onClick: () => {
               const array = this.state.foodItemArray;
               const len = array.length + 1;
+              const value = Math.floor(len/2);
               const foodItem = { 
-                key: 'food-item-' + len,
+                key: 'food-item-' + value,
                 label: 'Nazwa składnika',
                 colSpan: 3,
               }
               const foodAmount = {
-                key: 'food-item-amount-' + len,
+                key: 'food-amount-' + value,
                 label: 'Ilość',
               }
               array.push(foodItem);
@@ -199,14 +266,14 @@ class AddRecipe extends Component {
         { 
           key: 'recipeStepButton',
           widget: 'button',
-          children: 'Dodaj krok przepisu',
+          children: 'Dodaj krok przepisu.',
           widgetProps: {
             onClick: () => {
               const array = this.state.recipeStepArray;
-              const len = array.length + 1;
+              const len = array.length;
               const recipeStep = { 
-                key: 'textarea', 
-                label: 'Krok ' + len, 
+                key: 'recipe-step-' + len, 
+                label: 'Krok ' + (len + 1), 
                 colSpan: 4, 
                 widget: 'textarea',
               }             
@@ -227,7 +294,7 @@ class AddRecipe extends Component {
             )
           },
         },
-        { key: 'checkbox-group', tooltip: 'Zaznacz, czy potrawa jest wegetariańska lub', colSpan: 4, label: 'Spełnia wymagania diety', widget: 'checkbox-group', options },
+        { key: 'diet_type', required: true, message: 'Wybierz dietę.', tooltip: 'Zaznacz, czy potrawa jest wegetariańska lub wegańska.', colSpan: 4, label: 'Dieta', widget: 'radio-group', options },
       ],
     }
 
@@ -236,7 +303,7 @@ class AddRecipe extends Component {
       <Row>
         <Col span={16}>
         <span className="column-header">Dodaj przepis</span>
-            <div className="recipe-column">
+            <div className="recipe-column-add">
             <Form layout="horizontal" onSubmit={this.handleSubmit}>
               <FormBuilder form={this.props.form} meta={meta} />
               <Form.Item wrapperCol={{ span: 16, offset: 8 }} className="form-footer">
