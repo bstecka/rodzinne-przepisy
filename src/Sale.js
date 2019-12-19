@@ -47,7 +47,7 @@ class Sale extends Component {
 
   componentDidMount() {
     const { match: { params } } = this.props;
-    fetch(`${apiURL}/sales/${params.id}`)
+    fetch(`${apiURL}/sales/${params.id}?_sort=stores,price&_order=asc`)
     .then(res => res.json())
     .then((data) => {
       this.setState({ sale: data })

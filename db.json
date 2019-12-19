@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Zdrowy burger",
-      "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
       "saved": "true",
       "difficulty": 4.5,
       "portions": 4,
@@ -91,28 +91,34 @@
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
         }
       ],
       "recipe_steps": [
@@ -210,32 +216,39 @@
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
         },
         {
-          "id": 7,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+            "id": 7,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
         }
       ],
       "recipe_steps": [
@@ -348,32 +361,29 @@
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
-        },
-        {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
-        },
-        {
-          "id": 7,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
         }
       ],
       "recipe_steps": [
@@ -456,28 +466,34 @@
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
         }
       ],
       "recipe_steps": [
