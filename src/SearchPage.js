@@ -5,25 +5,6 @@ import './HomePage.css';
 import { apiURL } from './consts';
 import RecipeList from './RecipeList.js'
 
-const data = [
-  {
-    title: 'Wykwintne śniadanie',
-    url: 'https://www.holidify.com/blog/wp-content/uploads/2016/01/DalBati.jpg'
-  },
-  {
-    title: 'Makaron wegański',
-    url: 'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg'
-  },
-  {
-    title: 'Ramen z paluszkami krabowymi',
-    url: 'https://mothership.sg/wp-content/uploads/2016/11/3.jpg'
-  },
-  {
-    title: 'Makaron włoski',
-    url: 'https://img.etimg.com/thumb/msid-72104865,width-640,resizemode-4,imgsize-222155/italian-menu-for-the-entire-week.jpg'
-  },
-];
-
 class SearchPage extends Component {
 
   constructor(props) {
@@ -37,7 +18,7 @@ class SearchPage extends Component {
     .then((data) => {
       const filteredRecipes = data.filter(function(item){
         const nameContains = item.title ? item.title.toLowerCase().search(query) !== -1 : false;
-        const tagContains = item.tags ? item.tags.some(item => item.name.search(query) !== -1) : false;
+        const tagContains = item.tags ? item.tags.some(item => item.search(query) !== -1) : false;
         const ingredientListContains = item.ingredients ? item.ingredients.some(item => item.name.search(query) !== -1) : false;
         return nameContains || tagContains || ingredientListContains;
       });
