@@ -41,6 +41,7 @@ class PageLayout extends Component {
     if (cookies.cookies.loggedIn === "true"){
       cookies.remove('loggedIn');
       message.success('Prawidłowo wylogowano.');
+      this.props.history.push('/');
     }
     else {
       this.props.openModal('login');

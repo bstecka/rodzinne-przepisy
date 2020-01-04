@@ -23,7 +23,7 @@ class Recipe extends Component {
     fetch(`${apiURL}/recipes/${params.id}`)
     .then(res => res.json())
     .then((data) => {
-      this.setState({ recipe: data, value: data.diet_type.id })
+      this.setState({ recipe: data, value: data.diet_type.id, numberOfPortions: data.portions })
     })
     .catch(console.log)
   }
@@ -99,7 +99,7 @@ class Recipe extends Component {
             <div className="ingredients-title">Trudność przygotowania:</div>
             <div className="rate"><Rate allowHalf disabled defaultValue={this.state.recipe.difficulty} /></div>
             <div className="ingredients-title">Liczba porcji:</div>
-            <div className="portion-input"><InputNumber onChange={this.numberOfPortionsChange} min={0} max={20} step={1} defaultValue={1}/></div>
+            <div className="portion-input"><InputNumber onChange={this.numberOfPortionsChange} min={0} max={20} step={1} defaultValue={this.state.recipe.portions}/></div>
              <div className="ingredients-title"><span>Składniki:</span></div>
              <div className="ingredients-list">
               <List
@@ -110,13 +110,13 @@ class Recipe extends Component {
                   <List.Item>
                       <List.Item.Meta
                         title={item.name} />
-                      <div class="item-quantity">{item.quantity * this.state.numberOfPortions} {item.unit}</div>
+                      <div class="item-quantity">{item.quantity * this.state.numberOfPortions/this.state.recipe.portions} {item.unit}</div>
                   </List.Item>
                 )}
               />
               </div>
             </div>
-          <span className="column-header">Galeria:</span>
+          {/* <span className="column-header">Galeria:</span> */}
           <div className="gallery">
             <DztImageGalleryComponent imageBackgroundColor="red"
               images={this.state.recipe.gallery} />

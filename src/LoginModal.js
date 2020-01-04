@@ -18,16 +18,16 @@ class LoginModal extends Component {
   }
 
   onLogin() {
-    const email = document.querySelector('#email').value;
+    const login = document.querySelector('#login').value;
     const password = document.querySelector('#password').value;
-    if (!email || !password) {
+    if (!login || !password) {
       this.setState({
         error: true
       })
     } else {
       this.onLoginSuccess('form');
     }
-    message.success('Witaj, '+ email + '!');
+    message.success('Witaj, '+ login + '!');
   }
 
   onRegister() {
@@ -138,12 +138,12 @@ class LoginModal extends Component {
             loginInputs: [
                 {
                 containerClass: 'RML-form-group',
-                label: 'Adres e-mail:',
-                type: 'email',
+                label: 'Nazwa użytkownika:',
+                type: 'text',
                 inputClass: 'RML-form-control',
-                id: 'email',
-                name: 'email',
-                placeholder: 'Adres e-mail',
+                id: 'login',
+                name: 'login',
+                placeholder: 'Nazwa użytkownika',
                 },
                 {
                 containerClass: 'RML-form-group',
@@ -182,6 +182,15 @@ class LoginModal extends Component {
                 id: 'password',
                 name: 'hasło',
                 placeholder: 'Hasło',
+                },
+                {
+                  containerClass: 'RML-form-group',
+                  label: 'Powtórz hasło:',
+                  type: 'password',
+                  inputClass: 'RML-form-control',
+                  id: 'password',
+                  name: 'hasło',
+                  placeholder: 'Hasło',
                 }
             ],
             recoverPasswordInputs: [

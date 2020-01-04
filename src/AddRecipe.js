@@ -114,6 +114,7 @@ class AddRecipe extends Component {
         thumbnailUrl: "",
         difficulty: fieldsValues.difficulty,
         diet_type: diet_type,
+        portions: fieldsValues.portions,
         tags: tags,
         ingredients: ingredients,
         saved: "false",
