@@ -63,3 +63,7 @@ code {
 .RML-recover-password-anchor {
   color: #1890ff !important;
 }
+
+.RML-recover-password-success-label {
+  color: #1890ff !important; 
+}
