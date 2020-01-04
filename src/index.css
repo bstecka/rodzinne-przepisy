@@ -18,13 +18,27 @@ code {
     sans-serif !important;
 }
 
+.RML-form-group label {
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.RML-form-group input {
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.RML-login-modal-mode > div {
+  font-weight: normal !important;
+}
+
 .RML-login-modal-close {
   background-color: #1890ff !important;
 }
 
 .RML-login-modal-mode div {
   background-color: #001529 !important;
-  color: white !important;
+  color: rgba(255, 255, 255, 0.65) !important;
   border: none !important;
 }
 
@@ -36,4 +50,16 @@ code {
 
 .RML-login-modal-box {
   border: none !important;
+}
+
+.RML-form-group .RML-form-control {
+  margin-top: 10px;
+}
+
+.RML-recover-password-anchor {
+  text-transform: none !important;
+}
+
+.RML-recover-password-anchor {
+  color: #1890ff !important;
 }

@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Switch>
       <PageLayout>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" render={(props) => <HomePage {...props} isAuthed={true} />} />
         <Route path="/moje-przepisy" component={UserPage} />
         <Route path="/przepis/:id" component={Recipe} />
         <Route path="/dodaj" component={AddRecipe} />
