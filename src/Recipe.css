@@ -63,6 +63,11 @@
 
 .recipe-description {
   text-align: justify;
+  font-weight: initial;
+}
+
+.recipe-ingredients {
+  padding-right: 80px;
 }
 
 .rate {
@@ -70,10 +75,22 @@
   padding-bottom: 10px;
 }
 
-.recipe-description {
-  font-weight: initial;
-}
-
 .ingredients-title {
   font-weight: bold;
+}
+
+.ingredients-list .ant-list-item-meta-title {
+  font-size: 16px;
+}
+
+.ingredients-list .item-quantity {
+  font-size: 16px;
+}
+
+.ant-radio-wrapper {
+  font-size: 16px !important;
+}
+
+.sales-column .ant-list-item-meta-title {
+  font-size: 16px ;
 }
