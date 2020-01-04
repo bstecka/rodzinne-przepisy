@@ -5,12 +5,14 @@ import FormBuilder from 'antd-form-builder'
 import { withRouter } from "react-router-dom";
 import { apiURL } from './consts';
 import './AddRecipe.css';
+import EditableTagGroup from './EditableTagGroup.js'
 
 const recipeStep = { 
   key: 'recipe-step-0', 
   label: 'Krok 1', 
   colSpan: 4,
   required: true,
+  message: 'Podaj opis przygotowania.',
   tooltip: 'Opisz sposób przygotowywania potrawy.',
   widget: 'textarea',
 }
@@ -37,6 +39,7 @@ class AddRecipe extends Component {
     this.state = { 
       foodItemArray: [foodItem, foodAmount],
       recipeStepArray: [recipeStep],
+      tags: [],
       pictures: [],
       loading: false,
     };
@@ -105,12 +108,7 @@ class AddRecipe extends Component {
         id: fieldsValues.diet_type === "Standardowa" ? 1 : (fieldsValues.diet_type === "Wegetariańska" ? 2 : 3),
         name: fieldsValues.diet_type
       }
-      const tags = [
-        {
-          id: 3,
-          name: "pomysł na obiad"
-        }
-      ];
+      const tags = this.state.tags;
       const recipeObject = {
         title: fieldsValues.title,
         thumbnailUrl: "",
@@ -155,7 +153,7 @@ class AddRecipe extends Component {
         <div className="ant-upload-text">Kliknij i wybierz zdjęcie</div>
       </div>
     );
-    const UploadInput = ({ value, onChange }) => {
+    const UploadInput = () => {
       return (
       <Upload
         name="avatar"
@@ -169,8 +167,12 @@ class AddRecipe extends Component {
         {this.state.imageUrl ? <img src={this.state.imageUrl} alt="avatar" style={{ width: '100%' }} /> : uploadButton}
       </Upload>
     ) };
+    const TagInput = () => (
+      <EditableTagGroup label="Dodaj Tag" onTagUpdate={(tags) => { console.log(tags); this.setState({tags: tags}) }} />
+    );
     try {
       FormBuilder.defineWidget('UploadInput', UploadInput);
+      FormBuilder.defineWidget('TagInput', TagInput);
     } catch (e) { }
     
     const meta = {
@@ -197,7 +199,14 @@ class AddRecipe extends Component {
           tooltip: 'Podaj nazwę potrawy.',
         },
         { key: 'difficulty', tooltip: 'Podaj trudność wykonania.', label: 'Trudność', widget: Rate, initialValue: 2 },
-        { key: 'portions', tooltip: 'Podaj liczbę porcji dla przepisu.', colSpan: 4, initialValue: 1, label: 'Liczba porcji', widget: 'number' },
+        { key: 'portions', tooltip: 'Podaj standardową liczbę porcji dla przepisu.', colSpan: 4, initialValue: 1, label: 'Liczba porcji', widget: 'number' },
+        {
+          key: 'tags',
+          tooltip: 'Dodaj etykiety opisujące przepis, np. "wegetariański", "owoce", "przyjęcie".',
+          label: 'Tagi opisujące przepis',
+          colSpan: 4,
+          widget: 'TagInput',
+        },
         {
           key: 'label0',
           colSpan: 4,
@@ -266,7 +275,7 @@ class AddRecipe extends Component {
         { 
           key: 'recipeStepButton',
           widget: 'button',
-          children: 'Dodaj krok przepisu.',
+          children: 'Dodaj krok przepisu',
           widgetProps: {
             onClick: () => {
               const array = this.state.recipeStepArray;
@@ -274,7 +283,7 @@ class AddRecipe extends Component {
               const recipeStep = { 
                 key: 'recipe-step-' + len, 
                 label: 'Krok ' + (len + 1), 
-                colSpan: 4, 
+                colSpan: 4,
                 widget: 'textarea',
               }             
               array.push(recipeStep);

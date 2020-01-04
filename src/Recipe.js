@@ -146,6 +146,34 @@ class Recipe extends Component {
     this.state.recipe ?
       <Row>
         <Col span={12}>
+          <div className="recipe-ingredients">
+            <div className="ingredients-title">Trudność przygotowania:</div>
+            <div className="rate"><Rate allowHalf disabled defaultValue={this.state.recipe.difficulty} /></div>
+            <div className="ingredients-title">Liczba porcji:</div>
+            <div className="portion-input"><InputNumber onChange={this.numberOfPortionsChange} min={0} max={20} step={1} defaultValue={1}/></div>
+             <div className="ingredients-title"><span>Składniki:</span></div>
+             <div className="ingredients-list">
+              <List
+                itemLayout="horizontal"
+                dataSource={this.state.recipe.ingredients}
+                size="large"
+                renderItem={item => (
+                  <List.Item>
+                      <List.Item.Meta
+                        title={item.name} />
+                      <div class="item-quantity">{item.quantity * this.state.numberOfPortions} {item.unit}</div>
+                  </List.Item>
+                )}
+              />
+              </div>
+            </div>
+          <span className="column-header">Galeria:</span>
+          <div className="gallery">
+            <DztImageGalleryComponent imageBackgroundColor="red"
+              images={this.state.recipe.gallery} />
+          </div>
+        </Col>
+        <Col span={12}>
         <span className="column-header">{this.state.recipe.title}</span>
             <div className="recipe-column">
               <Card cover={<img alt="example" src={this.state.recipe.thumbnailUrl.length > 1 ? this.state.recipe.thumbnailUrl : defaultImageURL} />}>
@@ -163,34 +191,6 @@ class Recipe extends Component {
                     <Radio.Group options={options} onChange={this.onChange} value={this.state.value} />
                   </div>
               </Card>
-          </div>
-        </Col>
-        <Col span={12}>
-          <div className="recipe-ingredients">
-            <div className="ingredients-title">Trudność przygotowania:</div>
-            <div className="rate"><Rate allowHalf disabled defaultValue={this.state.recipe.difficulty} /></div>
-            <div>Liczba porcji:</div>
-            <div className="portion-input"><InputNumber onChange={this.numberOfPortionsChange} min={0} max={20} step={1} defaultValue={1}/></div>
-             <div className="ingredients-title"><span>Składniki:</span></div>
-             <div className="ingredients-list">
-              <List
-                itemLayout="horizontal"
-                dataSource={this.state.recipe.ingredients}
-                size="large"
-                renderItem={item => (
-                  <List.Item>
-                      <List.Item.Meta
-                        title={item.name} />
-                      <div>{item.quantity * this.state.numberOfPortions} {item.unit}</div>
-                  </List.Item>
-                )}
-              />
-              </div>
-            </div>
-          <span className="column-header">Galeria:</span>
-          <div className="gallery">
-            <DztImageGalleryComponent imageBackgroundColor="red"
-              images={this.state.recipe.gallery} />
           </div>
         </Col>
       </Row> : null

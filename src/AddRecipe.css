@@ -1,5 +1,6 @@
 .column-header {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .recipe-column-add {
@@ -13,4 +14,17 @@
 
 .ant-upload.ant-upload-select-picture-card {
   width: 50% !important;
+}
+
+.ant-form-item-control .ant-tag {
+  font-size: 16px !important;
+  padding: 8px !important;
+}
+
+.ant-form label {
+  font-size: 16px !important;
+}
+
+.ant-upload-text {
+  font-size: 16px !important;
 }

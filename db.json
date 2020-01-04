@@ -4,102 +4,86 @@
       "id": "1",
       "title": "Zdrowy burger",
       "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
-      "saved": "false",
+      "saved": "true",
       "difficulty": 4.5,
       "diet_type": {
         "id": 1,
         "name": "Standardowa"
       },
       "tags": [
-        {
-          "id": 1,
-          "name": "fast food"
-        },
-        {
-          "id": 2,
-          "name": "warzywa"
-        },
-        {
-          "id": 3,
-          "name": "pomysł na obiad"
-        },
-        {
-          "id": 4,
-          "name": "szybkie danie"
-        },
-        {
-          "id": 5,
-          "name": "dieta mięsna"
-        }
+        "fast food",
+        "warzywa",
+        "pomysł na obiad",
+        "szybkie danie"
       ],
       "ingredients": [
         {
-          "name": "mięso wołowe z udźca",
+          "name": "Mięso wołowe z udźca",
           "quantity": 700,
           "unit": "g"
         },
         {
           "name": "Sos Hellmann's Green Pepper",
           "quantity": 4,
-          "unit": "łyzki"
+          "unit": "łyżki"
         },
         {
           "name": "Przyprawa do kurczka Knorr",
           "quantity": 2,
-          "unit": "łyzki"
+          "unit": "łyżki"
         },
         {
-          "name": "ser pleśniowy typu blue",
+          "name": "Ser pleśniowy typu blue",
           "quantity": 100,
           "unit": "g"
         },
         {
-          "name": "musztarda Dijon",
+          "name": "Musztarda Dijon",
           "quantity": 1,
-          "unit": "łyzeczka"
+          "unit": "łyżeczka"
         },
         {
-          "name": "natka pietruszki (posiekana)",
+          "name": "Natka pietruszki (posiekana)",
           "quantity": 1,
-          "unit": "łyzka"
+          "unit": "łyżka"
         },
         {
-          "name": "ser zółty",
+          "name": "Ser zółty",
           "quantity": 4,
           "unit": "plastry"
         },
         {
-          "name": "sałata karbowana ciemna, liście",
+          "name": "Sałata karbowana ciemna, liście",
           "quantity": 4,
           "unit": "szt."
         },
         {
-          "name": "bułki do hamburgerów",
+          "name": "Bułki do hamburgerów",
           "quantity": 4,
           "unit": "szt."
         },
         {
-          "name": "sól",
+          "name": "Sól",
           "quantity": 1,
           "unit": "szczypta"
         },
         {
-          "name": "pieprz",
+          "name": "Pieprz",
           "quantity": 1,
           "unit": "szczypta"
         },
         {
-          "name": "czerwona cebula",
+          "name": "Czerwona cebula",
           "quantity": 6,
           "unit": "szt."
         },
         {
-          "name": "ocet balsamiczny",
+          "name": "Ocet balsamiczny",
           "quantity": 4,
           "unit": "łyżki"
         },
         {
-          "name": "olej",
+          "name": "Olej",
           "quantity": 2,
           "unit": "łyżki"
         }
@@ -157,62 +141,47 @@
       "id": "2",
       "title": "Tort bezowo-ajerkoniakowy",
       "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
-      "saved": "true",
+      "saved": "false",
       "difficulty": 5,
       "diet_type": {
         "id": 2,
         "name": "Wegetariańska"
       },
       "tags": [
-        {
-          "id": 6,
-          "name": "wegetariańskie"
-        },
-        {
-          "id": 8,
-          "name": "deser"
-        },
-        {
-          "id": 9,
-          "name": "słodycze"
-        },
-        {
-          "id": 10,
-          "name": "owoce"
-        },
-        {
-          "id": 11,
-          "name": "alkohol"
-        }
+        "wegetariańskie",
+        "deser",
+        "słodycze",
+        "owoce",
+        "alkohol"
       ],
       "ingredients": [
         {
-          "name": "białko",
+          "name": "Białko",
           "quantity": 6,
           "unit": "szt."
         },
         {
-          "name": "cukier",
+          "name": "Cukier",
           "quantity": 375,
           "unit": "g"
         },
         {
-          "name": "ocet",
+          "name": "Ocet",
           "quantity": 1,
           "unit": "łyżeczka"
         },
         {
-          "name": "mąka ziemniaczana",
+          "name": "Mąka ziemniaczana",
           "quantity": 1,
           "unit": "łyżka"
         },
         {
-          "name": "mielona kawa",
+          "name": "Mielona kawa",
           "quantity": 4,
           "unit": "łyżki"
         },
         {
-          "name": "sól",
+          "name": "Sól",
           "quantity": 1,
           "unit": "szczypta"
         },
@@ -222,7 +191,7 @@
           "unit": "opakowania"
         },
         {
-          "name": "cukier puder",
+          "name": "Cukier puder",
           "quantity": 1,
           "unit": "szklanka"
         },
@@ -232,7 +201,7 @@
           "unit": "ml"
         },
         {
-          "name": "owoce",
+          "name": "Owoce",
           "quantity": 0,
           "unit": ""
         }
@@ -305,43 +274,21 @@
         "name": "Wegańska"
       },
       "tags": [
-        {
-          "id": 6,
-          "name": "wegetariańskie"
-        },
-        {
-          "id": 7,
-          "name": "wegańskie"
-        },
-        {
-          "id": 12,
-          "name": "azjatyckie"
-        },
-        {
-          "id": 13,
-          "name": "zupa"
-        },
-        {
-          "id": 2,
-          "name": "warzywa"
-        },
-        {
-          "id": 3,
-          "name": "pomysł na obiad"
-        },
-        {
-          "id": 4,
-          "name": "szybkie danie"
-        }
+        "wegetariańskie",
+        "wegańskie",
+        "azjatyckie",
+        "zupa",
+        "warzywa",
+        "szybkie danie"
       ],
       "ingredients": [
         {
-          "name": "pomidory w puszce",
+          "name": "Pomidory w puszce",
           "quantity": 2,
           "unit": "puszki"
         },
         {
-          "name": "mleko kokosowe z puszki",
+          "name": "Mleko kokosowe z puszki",
           "quantity": 1,
           "unit": "puszka"
         },
@@ -351,22 +298,22 @@
           "unit": "ml (woda)"
         },
         {
-          "name": "cebula",
+          "name": "Cebula",
           "quantity": 1,
           "unit": "szt."
         },
         {
-          "name": "świeży imbir - 3 cm kawałek",
+          "name": "Świeży imbir - 3 cm kawałek",
           "quantity": 1,
           "unit": "szt."
         },
         {
-          "name": "ząbek czosnku",
+          "name": "Ząbek czosnku",
           "quantity": 2,
           "unit": "szt."
         },
         {
-          "name": "papryczka chilli",
+          "name": "Papryczka chilli",
           "quantity": 2,
           "unit": "szt."
         },
@@ -381,7 +328,7 @@
           "unit": "łyżeczka"
         },
         {
-          "name": "kolendra mielona",
+          "name": "Kolendra mielona",
           "quantity": 0.5,
           "unit": "łyżki"
         },
@@ -391,7 +338,7 @@
           "unit": "łyżeczki"
         },
         {
-          "name": "olej do smażenia",
+          "name": "Olej do smażenia",
           "quantity": 0,
           "unit": ""
         }
@@ -456,26 +403,14 @@
         "name": "Wegetariańska"
       },
       "tags": [
-        {
-          "id": 6,
-          "name": "wegetariańskie"
-        },
-        {
-          "id": 2,
-          "name": "warzywa"
-        },
-        {
-          "id": 4,
-          "name": "szybkie danie"
-        },
-        {
-          "id": 14,
-          "name": "śniadanie"
-        }
+        "wegetariańskie",
+        "warzywa",
+        "szybkie danie",
+        "śniadanie"
       ],
       "ingredients": [
         {
-          "name": "pieczywo pełnoziarniste, kromki",
+          "name": "Pieczywo pełnoziarniste, kromki",
           "quantity": 6,
           "unit": "szt."
         },
@@ -485,7 +420,7 @@
           "unit": "g"
         },
         {
-          "name": "cukinia",
+          "name": "Cukinia",
           "quantity": 1,
           "unit": "szt."
         },
@@ -495,12 +430,12 @@
           "unit": "szt."
         },
         {
-          "name": "ząbek czosnku",
+          "name": "Ząbek czosnku",
           "quantity": 1,
           "unit": "szt."
         },
         {
-          "name": "sól",
+          "name": "Sól",
           "quantity": 1,
           "unit": "szczypta"
         },
@@ -510,7 +445,7 @@
           "unit": "szczypta"
         },
         {
-          "name": "kiełki słonecznika",
+          "name": "Kiełki słonecznika",
           "quantity": 1,
           "unit": "garść"
         }
@@ -568,43 +503,43 @@
   "tags": [
     {
       "id": 1,
-      "name": "fast food"
+      "name": "Fast food"
     },
     {
       "id": 2,
-      "name": "warzywa"
+      "name": "Warzywa"
     },
     {
       "id": 3,
-      "name": "pomysł na obiad"
+      "name": "Pomysł na obiad"
     },
     {
       "id": 4,
-      "name": "szybkie danie"
+      "name": "Szybkie danie"
     },
     {
       "id": 5,
-      "name": "dieta mięsna"
+      "name": "Dieta mięsna"
     },
     {
       "id": 6,
-      "name": "wegetariańskie"
+      "name": "Wegetariańskie"
     },
     {
       "id": 7,
-      "name": "wegańskie"
+      "name": "Wegańskie"
     },
     {
       "id": 8,
-      "name": "deser"
+      "name": "Deser"
     },
     {
       "id": 9,
-      "name": "słodycze"
+      "name": "Słodycze"
     },
     {
       "id": 10,
-      "name": "owoce"
+      "name": "Owoce"
     },
     {
       "id": 11,
@@ -616,11 +551,11 @@
     },
     {
       "id": 13,
-      "name": "zupa"
+      "name": "Zupa"
     },
     {
       "id": 14,
-      "name": "śniadanie"
+      "name": "Śniadanie"
     }
   ],
   "diet_types": [

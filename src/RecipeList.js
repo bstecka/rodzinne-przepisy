@@ -25,8 +25,8 @@ export default function RecipeList({handleClick, recipes, columns}) {
           renderItem={item => 
             <List.Item onClick={() => onClick(item.id)}>
               <Card className="card" hoverable cover={<img alt="example" src={item.thumbnailUrl.length > 1 ? item.thumbnailUrl : defaultImageURL} className="card-image" />}>
-                <p>{item.title}</p>
-                {item.tags.map(tag => <Tag onClick={onTagClick} key={tag.id}>{tag.name}</Tag>)}
+                <p className="recipe-title">{item.title}</p>
+                {item.tags.map((tag, id) => <Tag onClick={onTagClick} key={id}>{tag}</Tag>)}
                 </Card>
             </List.Item>} 
       />
