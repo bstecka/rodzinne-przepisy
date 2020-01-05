@@ -77,6 +77,8 @@
 
 .ingredients-title {
   font-weight: bold;
+  font-size: 16px;
+  padding-top: 8px;
 }
 
 .ingredients-list .ant-list-item-meta-title {

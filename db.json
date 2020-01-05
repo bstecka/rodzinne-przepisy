@@ -6,6 +6,7 @@
       "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
       "saved": "true",
       "difficulty": 4.5,
+      "portions": 4,
       "diet_type": {
         "id": 1,
         "name": "Standardowa"
@@ -141,8 +142,9 @@
       "id": "2",
       "title": "Tort bezowo-ajerkoniakowy",
       "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
-      "saved": "false",
+      "saved": "true",
       "difficulty": 5,
+      "portions": 1,
       "diet_type": {
         "id": 2,
         "name": "Wegetariańska"
@@ -269,6 +271,7 @@
       "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
       "saved": "false",
       "difficulty": 3,
+      "portions": 4,
       "diet_type": {
         "id": 3,
         "name": "Wegańska"
@@ -398,6 +401,7 @@
       "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
       "saved": "false",
       "difficulty": 2.5,
+      "portions": 4,
       "diet_type": {
         "id": 2,
         "name": "Wegetariańska"

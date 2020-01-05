@@ -52,3 +52,46 @@ body {
 .logout-icon {
   padding: 20px 20px;
 }
+
+.ant-btn > .menu-text-add {
+  display: inline-block;
+}
+
+.ant-btn > .menu-text-alt {
+  display: none;
+}
+
+@media (max-width: 630px) {
+  .header-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .ant-btn > .menu-text-add {
+    display: none;
+  }
+  
+  .ant-btn > .menu-text-alt {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ant-menu-item .menu-text{
+    display: none;
+  }
+  
+  .ant-menu-item .ant-menu-item-selected .menu-text{
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .header-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

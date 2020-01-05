@@ -63,7 +63,7 @@ class Sale extends Component {
           <Col span={10}>
           <span className="column-header">{this.state.sale.product_name}</span>
               <div className="sale-image">
-              <Card cover={<img alt="example" src={this.state.sale.product_url} />}>{this.state.sale.product_name}</Card>
+              <Card cover={<img alt="example" src={this.state.sale.product_url} />}></Card>
               </div>
           </Col>
           <Col span={14}>
@@ -71,7 +71,7 @@ class Sale extends Component {
           <List className="sales-list" itemLayout="horizontal" dataSource={this.state.sale.stores} size="large" 
               renderItem={item => <List.Item>
                 <List.Item.Meta width={150} avatar={<Avatar src={item.logo_url} shape="square" />} title={item.name} />
-                <div>{item.price} zł</div>
+                <div className="item-price">{item.price} zł</div>
             </List.Item>} />
           </Col>
         </Row>

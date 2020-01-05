@@ -11,3 +11,8 @@
   object-fit: cover;
   height: 300px;
 }
+
+.recipe-title {
+  font-size: 17px !important;
+  padding-bottom: 10px;
+}
