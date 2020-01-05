@@ -61,15 +61,15 @@ class PageLayout extends Component {
           <div className="header-container">
               <SearchInput/>
           </div>
-          <Button type="primary" size='large' onClick={this.handleButtonClick}>Dodaj przepis</Button>
+          <Button type="primary" size='large' onClick={this.handleButtonClick}><span className="menu-text-add">Dodaj przepis</span><span className="menu-text-alt"><Icon type="form" /></span></Button>
           <Menu 
               theme="dark"
               mode="horizontal"
               selectedKeys={[this.props.location.pathname]}
               style={{ lineHeight: '100px' }}
           >
-          <Menu.Item onClick={this.handleLogInRequiredClick} key="/moje-przepisy"><Icon type="read"/>Książka kucharska</Menu.Item>
-          <Menu.Item onClick={this.handleClick} key="/"><Icon type="home"/>Strona główna</Menu.Item>
+          <Menu.Item onClick={this.handleLogInRequiredClick} key="/moje-przepisy"><Icon type="read"/><span className="menu-text">Książka kucharska</span></Menu.Item>
+          <Menu.Item onClick={this.handleClick} key="/"><Icon type="home"/><span className="menu-text">Strona główna</span></Menu.Item>
           <Icon className="logout-icon" onClick={this.handleLoginLogout} type={cookies.cookies.loggedIn === "true" ? "logout" : "login"} />
           </Menu>
         </Header>
