@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Zdrowy burger",
-      "thumbnailUrl": "https://www.runners-world.pl/media/lib/1720/fast_food_burger_indyk-87e27092bc721dfda6881b781ab8b091.jpg",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
       "saved": "true",
       "difficulty": 4.5,
       "portions": 4,
@@ -89,30 +89,180 @@
           "unit": "łyżki"
         }
       ],
+      "vegetarian_ingredients": [
+        {
+          "name": "tofu wędzone",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Sos Hellmann's Green Pepper",
+          "quantity": 4,
+          "unit": "łyzki"
+        },
+        {
+          "name": "Przyprawa do kurczka Knorr",
+          "quantity": 2,
+          "unit": "łyzki"
+        },
+        {
+          "name": "ser pleśniowy typu blue",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "musztarda Dijon",
+          "quantity": 1,
+          "unit": "łyzeczka"
+        },
+        {
+          "name": "natka pietruszki (posiekana)",
+          "quantity": 1,
+          "unit": "łyzka"
+        },
+        {
+          "name": "ser zółty",
+          "quantity": 4,
+          "unit": "plastry"
+        },
+        {
+          "name": "sałata karbowana ciemna, liście",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "bułki do hamburgerów",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "pieprz",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "czerwona cebula",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet balsamiczny",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "olej",
+          "quantity": 2,
+          "unit": "łyżki"
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "tofu wędzone",
+          "quantity": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Sos Hellmann's Green Pepper",
+          "quantity": 4,
+          "unit": "łyzki"
+        },
+        {
+          "name": "Przyprawa do kurczka Knorr",
+          "quantity": 2,
+          "unit": "łyzki"
+        },
+        {
+          "name": "wegański blok pleśniowy typu blue",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "musztarda Dijon",
+          "quantity": 1,
+          "unit": "łyzeczka"
+        },
+        {
+          "name": "natka pietruszki (posiekana)",
+          "quantity": 1,
+          "unit": "łyzka"
+        },
+        {
+          "name": "wegański ser zółty",
+          "quantity": 4,
+          "unit": "plastry"
+        },
+        {
+          "name": "sałata karbowana ciemna, liście",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "wegańskie bułki do hamburgerów",
+          "quantity": 4,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "pieprz",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "czerwona cebula",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet balsamiczny",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "olej",
+          "quantity": 2,
+          "unit": "łyżki"
+        }
+      ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
         }
       ],
       "recipe_steps": [
@@ -204,38 +354,97 @@
         },
         {
           "name": "Owoce",
-          "quantity": 0,
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "białko",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "cukier",
+          "quantity": 375,
+          "unit": "g"
+        },
+        {
+          "name": "ocet",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "mąka ziemniaczana",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "mielona kawa",
+          "quantity": 4,
+          "unit": "łyżki"
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Kostka do pieczenia Kasia",
+          "quantity": 2,
+          "unit": "opakowania"
+        },
+        {
+          "name": "cukier puder",
+          "quantity": 1,
+          "unit": "szklanka"
+        },
+        {
+          "name": "ajerkoniak",
+          "quantity": 375,
+          "unit": "ml"
+        },
+        {
+          "name": "owoce",
+          "quantity": null,
           "unit": ""
         }
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
         },
         {
-          "id": 7,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+            "id": 7,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
         }
       ],
       "recipe_steps": [
@@ -342,38 +551,159 @@
         },
         {
           "name": "Olej do smażenia",
-          "quantity": 0,
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "pomidory w puszce",
+          "quantity": 2,
+          "unit": "puszki"
+        },
+        {
+          "name": "mleko kokosowe z puszki",
+          "quantity": 1,
+          "unit": "puszka"
+        },
+        {
+          "name": "Bulion na włoszczyźnie Knorr",
+          "quantity": 400,
+          "unit": "ml (woda)"
+        },
+        {
+          "name": "cebula",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "świeży imbir - 3 cm kawałek",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "papryczka chilli",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": " Liść laurowy z Turcji Knorr",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Kmin rzymski z Indii mielony Knorr",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "kolendra mielona",
+          "quantity": 0.5,
+          "unit": "łyżki"
+        },
+        {
+          "name": "Przyprawa Garam Masala Knorr",
+          "quantity": 0.5,
+          "unit": "łyżeczki"
+        },
+        {
+          "name": "olej do smażenia",
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "pomidory w puszce",
+          "quantity": 2,
+          "unit": "puszki"
+        },
+        {
+          "name": "mleko kokosowe z puszki",
+          "quantity": 1,
+          "unit": "puszka"
+        },
+        {
+          "name": "Bulion na włoszczyźnie Knorr",
+          "quantity": 400,
+          "unit": "ml (woda)"
+        },
+        {
+          "name": "cebula",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "świeży imbir - 3 cm kawałek",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "papryczka chilli",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": " Liść laurowy z Turcji Knorr",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Kmin rzymski z Indii mielony Knorr",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "kolendra mielona",
+          "quantity": 0.5,
+          "unit": "łyżki"
+        },
+        {
+          "name": "Przyprawa Garam Masala Knorr",
+          "quantity": 0.5,
+          "unit": "łyżeczki"
+        },
+        {
+          "name": "olej do smażenia",
+          "quantity": null,
           "unit": ""
         }
       ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
-        },
-        {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
-        },
-        {
-          "id": 7,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
         }
       ],
       "recipe_steps": [
@@ -454,30 +784,120 @@
           "unit": "garść"
         }
       ],
+      "vegetarian_ingredients": [
+        {
+          "name": "pieczywo pełnoziarniste, kromki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "Rama 100% Roślinna",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "name": "cukinia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "kiełki słonecznika",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
+      "vegan_ingredients": [
+        {
+          "name": "wegańskie pieczywo pełnoziarniste, kromki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "biosełko wegańskie",
+          "quantity": 40,
+          "unit": "g"
+        },
+        {
+          "name": "cukinia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "sól",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "kiełki słonecznika",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
       "gallery": [
         {
-          "id": 1,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
+            "id": 1,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
         },
         {
-          "id": 2,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
+            "id": 2,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
         },
         {
-          "id": 3,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
+            "id": 3,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
         },
         {
-          "id": 4,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
+            "id": 4,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
         },
         {
-          "id": 5,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
+            "id": 5,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
         },
         {
-          "id": 6,
-          "photoUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
+            "id": 6,
+            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
+            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
         }
       ],
       "recipe_steps": [

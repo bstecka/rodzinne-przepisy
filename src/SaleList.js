@@ -4,7 +4,7 @@ import { List, Card, Avatar } from 'antd';
 export default function SaleList({handleSalesClick, sales}) {
 
   const onClick = (id) => {
-    handleSalesClick('/promocja/' + id);
+    handleSalesClick('/promocja/' + id + '?_sort=stores,price&_order=asc');
   }
 
   return (
