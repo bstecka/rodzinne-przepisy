@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Zdrowy burger",
       "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
-      "saved": "true",
+      "saved": "false",
       "difficulty": 4.5,
       "portions": 4,
       "diet_type": {
@@ -235,34 +235,34 @@
       ],
       "gallery": [
         {
-            "id": 1,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli984132.jpg"
         },
         {
-            "id": 2,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli1451050.jpg"
         },
         {
-            "id": 3,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli2649393.jpg"
         },
         {
-            "id": 4,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli3784465.jpg"
         },
         {
-            "id": 5,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli4529137.jpg"
         },
         {
-            "id": 6,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
+          "id": 6,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/aromatyczne-double-burgery-z-plesniowym-serem-i-konfitura-z-czerwonej-cebuli5895950.jpg"
         }
       ],
       "recipe_steps": [
@@ -412,39 +412,39 @@
       ],
       "gallery": [
         {
-            "id": 1,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-szk222523.jpg"
         },
         {
-            "id": 2,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok7.jpg"
         },
         {
-            "id": 3,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok6.jpg"
         },
         {
-            "id": 4,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok5.jpg"
         },
         {
-            "id": 5,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok4.jpg"
         },
         {
-            "id": 6,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
+          "id": 6,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok3.jpg"
         },
         {
-            "id": 7,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
+          "id": 7,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/tort-bezowo-ajerkoniakowy-krok2.jpg"
         }
       ],
       "recipe_steps": [
@@ -681,29 +681,29 @@
       ],
       "gallery": [
         {
-            "id": 1,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa345603.jpg"
         },
         {
-            "id": 2,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-1.jpg"
         },
         {
-            "id": 3,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-2.jpg"
         },
         {
-            "id": 4,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-3.jpg"
         },
         {
-            "id": 5,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/indyjska-zupa-pomidorowa-krok-4.jpg"
         }
       ],
       "recipe_steps": [
@@ -870,34 +870,34 @@
       ],
       "gallery": [
         {
-            "id": 1,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_1986441.jpg"
         },
         {
-            "id": 2,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_2174459.jpg"
         },
         {
-            "id": 3,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_3705279.jpg"
         },
         {
-            "id": 4,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_4460818.jpg"
         },
         {
-            "id": 5,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski_zielony_sandwich_klubowy_5204724.jpg"
         },
         {
-            "id": 6,
-            "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
-            "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
+          "id": 6,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/wegetarianski-zielony-sandwich-klubowy204281.jpg"
         }
       ],
       "recipe_steps": [
@@ -920,6 +920,437 @@
         {
           "id": "Krok 5",
           "description": "Na kromkę pieczywa z cukinią nałóż kromkę z awokado i kiełkami – przykryj trzecią, „pustą” kromką. Złóż w ten sposób dwie kanapki. Kanapki przyciśnij lekko dłonią, przekrój po przekątnej na pół i od razu podawaj."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Awokado Toast",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/kanapka-z-awokado-i-jajkiem-w-koszulce265964.jpg",
+      "saved": "false",
+      "difficulty": 3,
+      "portions": 1,
+      "diet_type": {
+        "id": 1,
+        "name": "Standardowa"
+      },
+      "tags": [
+        "wegetariańskie",
+        "śniadanie",
+        "warzywa",
+        "szybkie danie"
+      ],
+      "ingredients": [
+        {
+          "name": "kromka chleba razowego",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "Rama z olejem z awokado i nutą limonki",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "jajko",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "cebula czerwona",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "cytryna",
+          "quantity": 0.75,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet winny",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "kilka listków pietruszki",
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "vegetarian_ingredients": [
+        {
+          "name": "kromka chleba razowego",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "Rama z olejem z awokado i nutą limonki",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "awokado",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "jajko",
+          "quantity": 2,
+          "unit": "szt."
+        },
+        {
+          "name": "cebula czerwona",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbek czosnku",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "Pieprz czarny z Wietnamu mielony Knorr",
+          "quantity": 1,
+          "unit": "szczypta"
+        },
+        {
+          "name": "cytryna",
+          "quantity": 0.75,
+          "unit": "szt."
+        },
+        {
+          "name": "ocet winny",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "kilka listków pietruszki",
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/kanapka-z-awokado-i-jajkiem-w-koszulce265964.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/kanapka-z-awokado-i-jajkiem-w-koszulce265964.jpg"
+        },
+        {
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/1890553.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/1890553.jpg"
+        },
+        {
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/2692393.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/2692393.jpg"
+        },
+        {
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/3937067.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/3937067.jpg"
+        },
+        {
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/4661538.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/4661538.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Ukrój 2 kromki chleba razowego, opiecz w tosterze, a następnie posmaruj Ramą z olejem z awokado i nutą limonki."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Do wrzącej wody dodaj łyżkę octu i zamieszaj aby powstał wir, dodaj rozbite jajko, a następnie gotuj do momentu, aż białko (ok. 3-4 min.) się zetnie. Wyjmij jajko za pomocą łyżki cedzakowej."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Do wcześniej przygotowanej miseczki włóż pokrojone w kostkę awokado, dodaj posiekany czosnek, dopraw pieprzem i sokiem z cytryny. Następnie całość rozdrobnij widelcem. Na koniec dodaj pokrojoną cebulę."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Rozsmaruj pastę na kanapce. Na sam wierzch kanapki połóż jajko w koszulce. Przypraw pieprzem do smaku. Udekoruj listkami pietruszki."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Ciasto Marchewkowe",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/ciasto-marchewkowe.jpg",
+      "saved": "false",
+      "difficulty": 2.5,
+      "portions": 1,
+      "diet_type": {
+        "id": 1,
+        "name": "Standardowa"
+      },
+      "tags": [
+        "wegetariańskie",
+        "deser",
+        "słodycze",
+        "owoce",
+        "orzechy"
+      ],
+      "ingredients": [
+        {
+          "name": "Kostka do pieczenia Kasia",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "jajko",
+          "quantity": 5,
+          "unit": "szt."
+        },
+        {
+          "name": "cukier",
+          "quantity": 350,
+          "unit": "g"
+        },
+        {
+          "name": "mąka",
+          "quantity": 350,
+          "unit": "g"
+        },
+        {
+          "name": "mąka ziemniaczana",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "name": "proszek do pieczenia",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "soda oczyszczona",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "cynamon",
+          "quantity": 1,
+          "unit": "łyżeczka"
+        },
+        {
+          "name": "starta marchewka",
+          "quantity": 500,
+          "unit": "g"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/ciasto-marchewkowe.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/ciasto-marchewkowe.jpg"
+        },
+        {
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok7.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok7.jpg"
+        },
+        {
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok6.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok6.jpg"
+        },
+        {
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok5.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok5.jpg"
+        },
+        {
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok4.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok4.jpg"
+        },
+        {
+          "id": 6,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok3.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/marchewkowiec-krok3.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Obie mąki wymieszaj z sodą, proszkiem do pieczenia i cynamonem."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Marchew zetrzyj na drobnej tarce i jeśli trzeba odciśnij z nadmiaru soku."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Jajka utrzyj z cukrem na puszystą masę."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Ciągle ucierając dodaj rozpuszczoną Kasię i marchewkę."
+        },
+        {
+          "id": "Krok 5",
+          "description": "Następnie dodawaj partiami mąkę z dodatkami. Wszystko wymieszaj."
+        },
+        {
+          "id": "Krok 6",
+          "description": "Ciasto przełóż do prostokątnej formy wysmarowanej Kasią i posypanej mąką lub bułką tartą. Wstaw do piekarnika nagrzanego do 180 st.C. Piecz 40-50 minut."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Makaron Wegański",
+      "thumbnailUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku.jpg",
+      "saved": "true",
+      "difficulty": 3.5,
+      "portions": 4,
+      "diet_type": {
+        "id": 3,
+        "name": "Wegańska"
+      },
+      "tags": [
+        "wegeńskie",
+        "obiad",
+        "warzywa",
+        "szybki obiad",
+        "azjatycki"
+      ],
+      "ingredients": [
+        {
+          "name": "makaron gryczany",
+          "quantity": 1,
+          "unit": "opakowanie"
+        },
+        {
+          "name": "Fix Do potraw chińskich Knorr",
+          "quantity": 1,
+          "unit": "opakowanie"
+        },
+        {
+          "name": "papryka czerwona",
+          "quantity": 1,
+          "unit": "szt"
+        },
+        {
+          "name": "marchewka",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "pieczarki",
+          "quantity": 6,
+          "unit": "szt."
+        },
+        {
+          "name": "por",
+          "quantity": 1,
+          "unit": "szt."
+        },
+        {
+          "name": "ząbki czosnku",
+          "quantity": 2,
+          "unit": "szt"
+        },
+        {
+          "name": "Imbir z Nigerii Knorr",
+          "quantity": 1,
+          "unit": "łyżka"
+        },
+        {
+          "name": "sos sojowy",
+          "quantity": 3,
+          "unit": "łyżki"
+        },
+        {
+          "name": "olej",
+          "quantity": 3,
+          "unit": "łyżki"
+        },
+        {
+          "name": "sos słodki chilli",
+          "quantity": 3,
+          "unit": "łyżki"
+        },
+        {
+          "name": "woda",
+          "quantity": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "kiełki",
+          "quantity": 1,
+          "unit": "garść"
+        }
+      ],
+      "gallery": [
+        {
+          "id": 1,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku.jpg"
+        },
+        {
+          "id": 2,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-1.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-1.jpg"
+        },
+        {
+          "id": 3,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-2.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-2.jpg"
+        },
+        {
+          "id": 4,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-3.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-3.jpg"
+        },
+        {
+          "id": 5,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/schab-w-pieciu-smakach-krok-3.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/schab-w-pieciu-smakach-krok-3.jpg"
+        },
+        {
+          "id": 6,
+          "thumbUrl": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-5.jpg",
+          "url": "https://s3.przepisy.pl/przepisy3ii/img/variants/670x0/makaron-gryczany-po-chinsku-krok-5.jpg"
+        }
+      ],
+      "recipe_steps": [
+        {
+          "id": "Krok 1",
+          "description": "Makaron ugotuj w wodzie według wskazówek na opakowaniu. Następnie odcedź i odstaw."
+        },
+        {
+          "id": "Krok 2",
+          "description": "Marchewkę, paprykę i pora pokrój w cienkie paski. Czosnek i imbir posiekaj, a pieczarki pokrój w cząstki."
+        },
+        {
+          "id": "Krok 3",
+          "description": "Na patelni rozgrzej mocno olej i smaż kolejno warzywa, imbir, czosnek i pieczarki."
+        },
+        {
+          "id": "Krok 4",
+          "description": "Fix Knorr wymieszaj z 300 mililitrami wody oraz z sosem sojowym i chilli."
+        },
+        {
+          "id": "Krok 5",
+          "description": "Wlej płyn na patelnię i dodaj makaron. Całość dokładnie wymieszaj i zagotuj. Makaron podawaj od razu po przyrządzeniu posypany kiełkami."
         }
       ]
     }
