@@ -98,7 +98,7 @@ class AddRecipe extends Component {
       for (i = 0; i < foodItems.length && i < foodAmounts.length; i++) {
         const amount = parseInt(foodAmounts[i][1]) ? parseInt(foodAmounts[i][1]) : "";
         const unit = foodAmounts[i][1] ? foodAmounts[i][1].replace(amount, "") : "";
-        ingredients.push({ name: foodItems[i][1], quantity: amount, unit: unit })
+        ingredients.push({ name: foodItems[i][1], quantity: amount ? amount : 1, unit: unit })
       }
       let recipe_steps = [];
       for (i = 0; i < recipeSteps.length; i++) {
