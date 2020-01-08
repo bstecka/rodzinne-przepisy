@@ -4,7 +4,7 @@
 }
 
 .card {
-  height: 450px;  
+  min-height: 450px;
 }
 
 .card-image {
@@ -15,4 +15,10 @@
 .recipe-title {
   font-size: 17px !important;
   padding-bottom: 10px;
+}
+
+.ant-card-body .ant-tag {
+  font-size: 14px !important;
+  padding: 8px !important;
+  margin-bottom: 8px !important;
 }
