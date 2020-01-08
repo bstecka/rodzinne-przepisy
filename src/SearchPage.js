@@ -17,8 +17,8 @@ class SearchPage extends Component {
     .then(res => res.json())
     .then((data) => {
       const filteredRecipes = data.filter(function(item){
-        const nameContains = item.title ? item.title.toLowerCase().search(query) !== -1 : false;
-        const tagContains = item.tags ? item.tags.some(item => item.search(query) !== -1) : false;
+        const nameContains = item.title ? item.title.toLowerCase().search(query.toLowerCase()) !== -1 : false;
+        const tagContains = item.tags ? item.tags.some(item => item.toLowerCase().search(query.toLowerCase()) !== -1) : false;
         return nameContains || tagContains;
       });
       this.setState({ query: query, recipes: filteredRecipes })
