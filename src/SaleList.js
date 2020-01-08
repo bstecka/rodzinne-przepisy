@@ -10,11 +10,11 @@ export default function SaleList({handleSalesClick, sales}) {
   return (
   <List 
     grid={{gutter: 12, column: 1}} 
-    dataSource={sales}
+    dataSource={sales && sales.slice(0,3)}
     renderItem={item => 
         <List.Item onClick={() => onClick(item.id)}>
             <Card hoverable cover={<img alt="sales_example" src={item.product_url} />}>{item.product_name}
-                <List itemLayout="horizontal" dataSource={item.stores} size="large" renderItem={item => <List.Item>
+                <List itemLayout="horizontal" dataSource={item.stores && item.stores.sort((a, b) => a.price - b.price)} size="large" renderItem={item => <List.Item>
                       <List.Item.Meta width={150} avatar={<Avatar src={item.logo_url} shape="square" />} title={item.name} />
                       <div>{item.price} zł</div>
                     </List.Item>} />
@@ -22,4 +22,3 @@ export default function SaleList({handleSalesClick, sales}) {
         </List.Item>} />
   );
 }
-  
