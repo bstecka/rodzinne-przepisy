@@ -68,7 +68,7 @@ class Sale extends Component {
           </Col>
           <Col span={14}>
           <span className="column-header">Promocje w sklepach</span>
-          <List className="sales-list" itemLayout="horizontal" dataSource={this.state.sale.stores} size="large" 
+          <List className="sales-list" itemLayout="horizontal" dataSource={this.state.sale.stores && this.state.sale.stores.sort((a, b) => a.price - b.price)} size="large" 
               renderItem={item => <List.Item>
                 <List.Item.Meta width={150} avatar={<Avatar src={item.logo_url} shape="square" />} title={item.name} />
                 <div className="item-price">{item.price} zł</div>
